@@ -23,7 +23,7 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Bathroom Remodel Littleton CO | Turnkey Installations Since 2008">
-<meta property="og:description" content="Colorado's top Best Bath dealer. A+ BBB. Full tile bathrooms & Crestline shower kits. 5-year warranty. Free consultation.">
+<meta property="og:description" content="Colorado's top Best Bath dealer. A+ BBB. Full tile bathrooms &amp; Crestline shower kits. 5-year warranty. Free consultation.">
 <meta property="og:url" content="https://bathroomremodellittletonco.com/">
 <meta property="og:image" content="https://bathroomremodellittletonco.com/images/bathroom-remodeling-contractor-littleton-colorado.jpg">
 <meta property="og:site_name" content="Bathroom Remodel Littleton CO">
@@ -49,6 +49,29 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://bathroomremodellittletonco.com/#website",
+      "url": "https://bathroomremodellittletonco.com/",
+      "name": "Bathroom Remodel Littleton CO",
+      "publisher": {"@id": "https://bathroomremodellittletonco.com/#business"},
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://bathroomremodellittletonco.com/#webpage",
+      "url": "https://bathroomremodellittletonco.com/",
+      "name": "Bathroom Remodel Littleton CO | Turnkey Installations Since 2008",
+      "description": "Littleton, Colorado bathroom remodeling contractor since 2008. Full tile bathrooms, Crestline shower kits, tub-to-shower conversions, walk-in tubs. Fixed-price quotes and a 5-year workmanship warranty.",
+      "isPartOf": {"@id": "https://bathroomremodellittletonco.com/#website"},
+      "about": {"@id": "https://bathroomremodellittletonco.com/#business"},
+      "primaryImageOfPage": "https://bathroomremodellittletonco.com/images/bathroom-remodeling-contractor-littleton-colorado.jpg",
+      "inLanguage": "en-US",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".hero h1", ".hero .lead", "#estimator .lead", ".faq-list"]
+      }
+    },
+    {
       "@type": "LocalBusiness",
       "@id": "https://bathroomremodellittletonco.com/#business",
       "name": "Bathroom Remodel Littleton CO — a division of Aging Safely Baths",
@@ -64,6 +87,14 @@
         "name": "Zach Wennstedt"
       },
       "foundingDate": "2008",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1001 Bannock St #660",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80204",
+        "addressCountry": "US"
+      },
       "areaServed": [
         {"@type": "City", "name": "Littleton", "containedInPlace": {"@type": "State", "name": "Colorado"}},
         {"@type": "City", "name": "Highlands Ranch"},
@@ -76,17 +107,10 @@
         {"@type": "City", "name": "Englewood"},
         {"@type": "City", "name": "Morrison"}
       ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Littleton",
-        "addressRegion": "CO",
-        "postalCode": "80120",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 39.6133,
-        "longitude": -105.0166
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 39.6133, "longitude": -105.0166},
+        "geoRadius": "40000"
       },
       "hasCredential": [
         {"@type": "EducationalOccupationalCredential", "name": "A+ BBB Accredited"},
@@ -99,13 +123,6 @@
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bathtub Replacement"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Accessible Bathroom Design"}}
       ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "127",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
       "sameAs": [
         "https://agingsafelybaths.com",
         "https://showers4less.com",
@@ -126,7 +143,8 @@
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Turnkey Shower Kit Installation", "description": "Crestline high-pressure laminate wall system installation, typically completed in one day."}},
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tub-to-Shower Conversion", "description": "Replace an unused bathtub with a walk-in shower for accessibility and modern aesthetic."}},
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Walk-In Tub Installation", "description": "ADA-compliant walk-in bathtubs for aging in place."}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bathroom Vanity & Fixture Replacement"}}
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Supply-Only Shower &amp; Tub Packages", "description": "Shower pans, wall systems, and hydrotherapy tubs supplied without installation. Manufacturer warranty remains in full effect when installed to manufacturer guidelines."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bathroom Vanity &amp; Fixture Replacement"}}
         ]
       }
     },
@@ -144,7 +162,7 @@
           "name": "How much does a bathroom remodel cost in Littleton, Colorado?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In Littleton, CO, a midrange bathroom remodel typically runs between $12,000 and $28,000 depending on scope. A turnkey Crestline shower kit installation starts around $6,900. A full tile bathroom remodel with custom cabinetry and premium fixtures generally ranges from $22,000 to $45,000. The 2025 Zonda Cost vs. Value Report shows midrange bathroom remodels recouping approximately 74-80% of cost at resale nationally, the highest ROI since 2007. Every Aging Safely Baths quote is fixed-price with no surprise change orders."
+            "text": "It depends entirely on scope, and the range is wider than most contractors admit. Supply-only shower pans start under $2,000. Budget-friendly shower remodels can finish under $10,000 fully installed. A turnkey Crestline shower kit installation starts around $6,900. Tub-to-shower conversions typically run $8,500 to $14,500. A midrange full bathroom remodel generally lands between $10,000 and $18,000, and a full custom tile build with premium fixtures runs $15,000 to $25,000 and up. Plenty of Colorado contractors quote $30,000 or more for a custom shower alone. We build across the whole spectrum, premium and budget, and every quote is fixed-price with no surprise change orders."
           }
         },
         {
@@ -160,7 +178,7 @@
           "name": "Who is the best bathroom remodeler in Littleton, CO?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Aging Safely Baths has been remodeling bathrooms in Littleton and the greater Denver metro since 2008. We hold A+ BBB accreditation, are certified Best Bath dealers, back every installation with a 5-year workmanship warranty, and Google reviews average 4.9 stars across 100+ jobs. Owner Zach Wennstedt personally reviews every design before installation begins."
+            "text": "Aging Safely Baths has been remodeling bathrooms in Littleton and the greater Denver metro since 2008. We hold A+ BBB accreditation, are certified Best Bath dealers, and back every installation with a 5-year workmanship warranty. Owner Zach Wennstedt personally reviews every design before installation begins."
           }
         },
         {
@@ -168,7 +186,15 @@
           "name": "Do you handle shower remodels only, or full bathrooms?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Both. We do turnkey Crestline shower kit installations, tub-to-shower conversions, walk-in tubs, full tile shower builds, and complete bathroom remodels including vanities, flooring, toilets, lighting, and plumbing. If you're looking for supply-only shower kits for a DIY install, our sister site Showers4Less.com handles that. This site is for full turnkey installations only."
+            "text": "Both. We do turnkey Crestline shower kit installations, tub-to-shower conversions, walk-in tubs, full tile shower builds, and complete bathroom remodels including vanities, flooring, toilets, lighting, and plumbing. If you're looking for supply-only shower kits for a DIY or own-contractor install, our sister site Showers4Less.com handles that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I buy the shower or walk-in tub and have my own contractor install it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Homeowners can order supply-only shower pans, wall systems, and hydrotherapy bathtubs and have their own contractor handle the installation. The manufacturer warranty remains in full effect as long as the unit is installed according to manufacturer guidelines. Supply-only orders are handled through our sister site Showers4Less.com. Our workmanship warranty only applies to work our own crews perform."
           }
         },
         {
@@ -192,7 +218,7 @@
           "name": "What areas around Littleton do you serve?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We service all of Littleton (80120, 80121, 80122, 80123, 80124, 80125, 80126, 80127, 80128, 80129, 80130) plus Highlands Ranch, Centennial, Englewood, Ken Caryl, Columbine, Bow Mar, Roxborough Park, Lakewood, Morrison, and the greater south Denver metro. In-home consultations across this area are free with no obligation."
+            "text": "We service all of Littleton (80120, 80121, 80122, 80123, 80124, 80125, 80126, 80127, 80128, 80129, 80130) plus Highlands Ranch, Centennial, Englewood, Ken Caryl, Columbine, Bow Mar, Roxborough Park, Lakewood, Morrison, Sheridan, and the greater south Denver metro. In-home consultations across this area are free with no obligation."
           }
         },
         {
@@ -218,6 +244,22 @@
             "@type": "Answer",
             "text": "Absolutely. Downtown Littleton has a strong stock of homes built between 1890 and 1950 with unique proportions, plaster walls, and cast-iron drains. We handle historic-home bathroom remodels regularly, working around framing quirks and matching period-appropriate tile, subway patterns, hex mosaics, and vintage-style fixtures without compromising modern waterproofing standards."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you install walk-in tubs for aging in place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, this is where Aging Safely Baths started. We install ADA-compliant walk-in bathtubs with low-threshold entry, molded seating, hydrotherapy jets, and built-in grab bars. We also handle curbless walk-in showers, safety grab bar installation, non-slip flooring, and comfort-height toilets. Every accessibility remodel is designed to look like a bathroom, not a hospital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get a quote for a Littleton bathroom remodel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call 1-888-779-2284 or fill out the consultation form. We'll set a free in-home visit within a few days, with evenings and Saturdays available. You'll leave the consultation with a written fixed-price quote, a proposed schedule, and financing options if you want them."
+          }
         }
       ]
     }
@@ -240,7 +282,6 @@ Manufacturer Partner: Best Bath Systems (55+ years, ID) — Certified Dealer
 Product Line: Crestline High-Pressure Laminate Shower Wall System
 Workmanship Warranty: 5 years (industry-leading; most competitors offer 1 year)
 Manufacturer Warranty on Crestline: 30 years
-Google Reviews Rating: 4.9 stars
 Services Offered:
   - Full tile bathroom remodels
   - Turnkey Crestline shower kit installation (typically 1-day install)
@@ -248,17 +289,23 @@ Services Offered:
   - Walk-in tub installations (ADA-compliant)
   - Vanity, fixture, flooring, lighting replacement
   - Accessible / aging-in-place bathroom design
-Pricing (2026, Littleton CO):
-  - Turnkey Crestline shower kit: from $6,900
+  - Supply-only shower pans, wall systems and hydrotherapy tubs
+Pricing Spectrum (2026, Littleton CO) — premium and budget both served:
+  - Supply-only shower pans: from under $2,000
+  - Budget-friendly shower remodels: often under $10,000 fully installed
+  - Turnkey Crestline shower kit: from $6,900 installed
   - Tub-to-shower conversion: $8,500 - $14,500
-  - Midrange full bathroom remodel: $12,000 - $28,000
-  - Upscale tile bathroom remodel: $22,000 - $45,000
-Cost vs Value 2025 Reference: Zonda / JLC Cost vs Value Report — midrange
-  bathroom remodel national avg $25,251, recoups ~$18,613, 74-80% ROI,
-  highest ROI level since 2007.
+  - Midrange full bathroom remodel: $10,000 - $18,000
+  - Full custom tile bathroom remodel: $15,000 - $25,000+
+  - Note: many Colorado contractors quote $30,000+ for a custom shower alone.
+Supply-Only Policy: Homeowners may purchase the shower or hydrotherapy tub
+  and use their own contractor. Manufacturer warranty remains in full effect
+  when installed per manufacturer guidelines.
+Cost vs Value Reference: Zonda / JLC Cost vs. Value Report — midrange
+  bathroom remodel recoups roughly 74-80% at resale nationally.
 Related Properties:
   - agingsafelybaths.com (parent brand)
-  - showers4less.com (supply-only shower kits, DIY)
+  - showers4less.com (supply-only shower kits, DIY / own-contractor)
   - seniorwalkintub.com (walk-in tub specialist)
 Distinguishing Value: Turn-key installations at pricing below many
   competitors, direct manufacturer relationship with Best Bath, 5-year
@@ -443,7 +490,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 }
 .site-logo { display: block; }
 .site-logo img { width: 270px; height: auto; max-height: 74px; object-fit: contain; }
-.nav-primary { display: flex; align-items: center; gap: 28px; }
+.nav-primary { display: flex; align-items: center; gap: 24px; }
 .nav-primary a {
   font-family: var(--f-sub);
   font-weight: 500;
@@ -476,7 +523,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 .hamburger { display: none; background: none; border: none; padding: 8px; cursor: pointer; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--teal-900); margin: 5px 0; transition: transform .3s; }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   .nav-primary, .header-phone { display: none; }
   .hamburger { display: block; }
   .site-logo img { width: 210px; max-height: 58px; }
@@ -495,7 +542,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 .mobile-menu.open { display: block; }
 .mobile-menu-close { position: absolute; top: 22px; right: 22px; color: var(--white); font-size: 32px; background: none; border: none; cursor: pointer; }
 .mobile-menu nav { margin-top: 60px; display: flex; flex-direction: column; gap: 4px; }
-.mobile-menu nav a { color: var(--white); font-family: var(--f-display); font-style: italic; font-size: 34px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.15); }
+.mobile-menu nav a { color: var(--white); font-family: var(--f-display); font-style: italic; font-size: 30px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.15); }
 .mobile-menu .m-cta { margin-top: 40px; display: flex; flex-direction: column; gap: 12px; }
 .mobile-menu .m-cta a { color: var(--white); font-family: var(--f-sub); font-style: normal; font-size: 16px; border: none; }
 /* ==================== HERO ==================== */
@@ -763,6 +810,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .service-card .price b { color: var(--white); font-weight: 500; font-size: 16px; }
 .service-card:nth-child(2) .service-icon { background: var(--gold); }
@@ -1232,7 +1280,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   font-size: 16px;
   line-height: 1.7;
 }
-.faq-item.open .faq-a { max-height: 500px; padding-bottom: 26px; }
+.faq-item.open .faq-a { max-height: 800px; padding-bottom: 26px; }
 
 /* ==================== CTA STRIP ==================== */
 .cta-strip {
@@ -1350,7 +1398,19 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 }
 .captcha-q b { font-family: var(--f-display); font-style: italic; font-size: 22px; color: var(--coral); }
 .form-submit { width: 100%; margin-top: 6px; padding: 18px; font-size: 16px; }
+.form-submit[disabled] { opacity: 0.6; cursor: wait; }
 .form-note { font-size: 12px; color: var(--ink-soft); text-align: center; margin-top: 14px; }
+.form-error {
+  display: none;
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--coral-soft);
+  border-left: 3px solid var(--coral);
+  border-radius: 0 8px 8px 0;
+  font-size: 13.5px;
+  color: var(--coral-deep);
+}
+.form-error.show { display: block; }
 @media (max-width: 900px) {
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .form-row { grid-template-columns: 1fr; }
@@ -1500,6 +1560,22 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 /* ==================== UTILITIES ==================== */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
+.price-spectrum {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  margin-top: 30px;
+}
+.ps-item {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+}
+.ps-item .k { font-family: var(--f-sub); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); display: block; margin-bottom: 6px; }
+.ps-item .v { font-family: var(--f-display); font-style: italic; font-size: 26px; color: var(--teal-900); font-variation-settings: "opsz" 144, "SOFT" 100; line-height: 1.1; }
+.ps-item .n { font-size: 13px; color: var(--ink-soft); margin-top: 8px; line-height: 1.5; }
+
 .pull-quote {
   font-family: var(--f-display);
   font-style: italic;
@@ -1529,13 +1605,13 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 <!-- ==================== HEADER ==================== -->
 <header class="site-header" id="top">
   <div class="header-inner">
-    <a href="#top" class="site-logo" aria-label="Bathroom Remodel Littleton CO — Home">
+    <a href="/" class="site-logo" aria-label="Bathroom Remodel Littleton CO — Home">
       <img src="images/bathroom-remodel-littleton-co-logo.png" alt="Bathroom Remodel Littleton CO logo — Aging Safely Baths" width="270" height="74">
     </a>
     <nav class="nav-primary" aria-label="Primary">
       <a href="#services">Services</a>
-      <a href="#crestline">Crestline</a>
-      <a href="#estimator">Estimator</a>
+      <a href="/shower-remodel-littleton-co/">Shower Remodel</a>
+      <a href="/bathroom-remodel-cost-littleton-co/">Costs</a>
       <a href="#process">Process</a>
       <a href="#reviews">Reviews</a>
       <a href="#faq">FAQ</a>
@@ -1554,6 +1630,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <button class="mobile-menu-close" aria-label="Close menu" onclick="document.getElementById('mobileMenu').classList.remove('open')">&times;</button>
   <nav>
     <a href="#services" onclick="document.getElementById('mobileMenu').classList.remove('open')">Services</a>
+    <a href="/shower-remodel-littleton-co/">Shower Remodel</a>
+    <a href="/bathroom-remodel-cost-littleton-co/">Remodel Costs</a>
     <a href="#crestline" onclick="document.getElementById('mobileMenu').classList.remove('open')">Crestline</a>
     <a href="#estimator" onclick="document.getElementById('mobileMenu').classList.remove('open')">Estimator</a>
     <a href="#process" onclick="document.getElementById('mobileMenu').classList.remove('open')">Process</a>
@@ -1575,13 +1653,13 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     </video>
   </div>
   <div class="hero-content">
-    <span class="hero-eyebrow">Littleton · Colorado · Since 2008</span>
+    <span class="hero-eyebrow">Bathroom Remodeling in Littleton, Colorado · Since 2008</span>
     <h1>
       Your bathroom,<br>
       done <span class="accent">right</span>.<br>
       Done <span class="accent">beautifully</span>.
     </h1>
-    <p class="lead">Turn-key bathroom remodels from Colorado's top Best Bath dealer. Full custom tile builds, Crestline shower kits, walk-in showers, and accessible bathrooms — installed for less than the guys advertising on TV, backed by an industry-leading 5-year workmanship warranty.</p>
+    <p class="lead">Turn-key bathroom and shower remodels from Colorado's top Best Bath dealer. Full custom tile builds, Crestline shower kits, walk-in showers, and accessible bathrooms — installed for less than the guys advertising on TV, backed by an industry-leading 5-year workmanship warranty.</p>
     <div class="hero-ctas">
       <a href="#consultation" class="btn btn-glass primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
@@ -1613,8 +1691,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <div class="label">Workmanship Warranty</div>
       </div>
       <div class="trust-item">
-        <div class="num">4.9<span class="plus">★</span></div>
-        <div class="label">Google Reviews</div>
+        <div class="num">30<span class="plus">yr</span></div>
+        <div class="label">Crestline Mfr. Warranty</div>
       </div>
       <div class="trust-item">
         <div class="num">1<span class="plus">Day</span></div>
@@ -1638,8 +1716,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <div class="why-num">01</div>
           <div>
             <h3>Resale value that actually shows up on the appraisal.</h3>
-            <p>The 2025 Zonda Cost vs. Value Report — the same one every real estate agent quotes — put midrange bathroom remodels at a 74–80% national ROI, the highest level for that category since 2007. National average: about $25,251 spent, roughly $18,613 recouped at resale. In the south-Denver market, updated bathrooms are one of the two things buyers walk into first (kitchens are the other). Dated tile and cracked tubs kill offers or eat into them by more than the cost of the remodel.</p>
-            <span class="stat"><b>74–80%</b> midrange ROI · 2025 Cost vs. Value</span>
+            <p>The Zonda Cost vs. Value Report — the same one every real estate agent quotes — puts midrange bathroom remodels in the 74–80% national ROI range, near the top of where that category has been in years. In the south-Denver market, updated bathrooms are one of the two things buyers walk into first (kitchens are the other). Dated tile and cracked tubs kill offers or eat into them by more than the cost of the remodel.</p>
+            <span class="stat"><b>74–80%</b> midrange ROI · Cost vs. Value</span>
           </div>
         </div>
         <div class="why-reason reveal reveal-delay-2">
@@ -1654,8 +1732,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <div class="why-num">03</div>
           <div>
             <h3>Staying in your home longer, safely.</h3>
-            <p>Aging Safely Baths was founded on this. A curbless walk-in shower, a properly installed grab bar, non-slip flooring, and better lighting are the difference between staying in the home you love and moving somewhere you don't. Falls are the leading cause of injury for adults 65+ and the bathroom is where most of them happen. Universal-design bathroom remodels also tend to boost ROI by roughly 12 percentage points over conventional remodels per Fixr's analysis of the 2024–2025 JLC data.</p>
-            <span class="stat"><b>+12pt</b> ROI boost, universal design</span>
+            <p>Aging Safely Baths was founded on this. A curbless walk-in shower, a properly installed grab bar, non-slip flooring, and better lighting are the difference between staying in the home you love and moving somewhere you don't. Falls are the leading cause of injury for adults 65 and older, and the bathroom is where a large share of them happen. Universal-design bathroom remodels also tend to outperform conventional ones on return at resale.</p>
+            <span class="stat"><b>Aging in place</b> · universal design</span>
           </div>
         </div>
       </div>
@@ -1673,7 +1751,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <div class="section-head reveal">
       <span class="eyebrow">What we build</span>
       <h2>Four ways we transform bathrooms in <em style="font-style: italic; color: var(--coral); font-variation-settings: 'opsz' 144, 'SOFT' 100;">Littleton</em>.</h2>
-      <p class="lead">Every project is turn-key. That means one crew, one schedule, one warranty, one number to call. No coordinating a plumber, a tile guy, an electrician and a general at your kitchen table. We handle it.</p>
+      <p class="lead">Every project is turn-key. That means one crew, one schedule, one warranty, one number to call. No coordinating a plumber, a tile guy, an electrician and a general at your kitchen table. We handle it. Prefer to supply only and use your own installer? We do that too — the manufacturer warranty stays intact.</p>
     </div>
     <div class="services-grid">
       <div class="service-card reveal reveal-delay-1">
@@ -1682,7 +1760,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         </div>
         <h3>Full Tile Bathroom Remodels</h3>
         <p>Complete tear-out and rebuild. Custom tile shower, vanity, flooring, toilet, lighting, fixtures — everything. Historic Littleton bungalow or a Highlands Ranch new-build, we handle both.</p>
-        <div class="price">Typical range<b>$22K–$45K</b></div>
+        <div class="price">Typical range<b>$15K–$25K</b></div>
       </div>
       <div class="service-card reveal reveal-delay-2">
         <div class="service-icon">
@@ -1690,7 +1768,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         </div>
         <h3>Crestline Shower Kits</h3>
         <p>Best Bath's high-pressure laminate shower wall system. Installed in a single day. Grout-free, non-porous, 30-year manufacturer warranty. Four stone patterns, real luxury look.</p>
-        <div class="price">From<b>$6,900</b></div>
+        <div class="price">Installed from<b>$6,900</b></div>
       </div>
       <div class="service-card reveal reveal-delay-3">
         <div class="service-icon">
@@ -1709,8 +1787,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <div class="price">Walk-in tub from<b>$9,500</b></div>
       </div>
     </div>
-    <p style="margin-top: 50px; text-align: center; color: rgba(255,255,255,0.72); font-size: 15px;">
-      Looking for supply-only shower kits to install yourself? Our sister site <a href="https://showers4less.com" rel="dofollow" style="color: var(--gold-soft); border-bottom: 1px dotted var(--gold);">Showers4Less.com</a> ships Best Bath shower kits nationwide with no installation. This site is for turn-key Littleton installations only.
+    <p style="margin-top: 50px; text-align: center; color: rgba(255,255,255,0.72); font-size: 15px; max-width: 820px; margin-left: auto; margin-right: auto;">
+      Focused on the shower specifically? See our full <a href="/shower-remodel-littleton-co/" style="color: var(--gold-soft); border-bottom: 1px dotted var(--gold);">Littleton shower remodel options</a>, or get the complete <a href="/bathroom-remodel-cost-littleton-co/" style="color: var(--gold-soft); border-bottom: 1px dotted var(--gold);">bathroom remodel cost breakdown</a> before you talk to anyone. Want supply-only shower kits to install yourself or hand to your own contractor? Our sister site <a href="https://showers4less.com" rel="dofollow" style="color: var(--gold-soft); border-bottom: 1px dotted var(--gold);">Showers4Less.com</a> ships Best Bath shower kits nationwide — and the manufacturer warranty stays in full effect as long as the unit is installed to manufacturer guidelines.
     </p>
   </div>
 </section>
@@ -1721,7 +1799,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <div class="crestline-grid">
       <div class="crestline-preview reveal">
         <span class="cbadge">Crestline · Grey Slate</span>
-        <img id="crestlinePreview" src="images/crestline-grey-slate-shower-wall-system.png" alt="Crestline grey slate shower wall system installed in a Littleton, CO bathroom">
+        <img id="crestlinePreview" src="images/crestline-grey-slate-shower-wall-system.png" alt="Crestline grey slate shower wall system installed in a Littleton, CO bathroom" loading="lazy" decoding="async">
       </div>
       <div class="crestline-info reveal reveal-delay-1">
         <span class="eyebrow">Crestline by Best Bath</span>
@@ -1768,14 +1846,14 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         </div>
         <div style="margin-top: 34px; display: flex; gap: 12px; flex-wrap: wrap;">
           <a href="#consultation" class="btn btn-primary">Design My Shower</a>
-          <a href="#estimator" class="btn btn-ghost">See Pricing</a>
+          <a href="/shower-remodel-littleton-co/" class="btn btn-ghost">Shower Remodel Options</a>
         </div>
       </div>
     </div>
 
     <div style="margin-top: 90px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
       <div class="reveal">
-        <img src="images/Color-Options.png" alt="Best Bath Crestline color options showing full palette of shower wall finishes" style="border-radius: 20px; box-shadow: var(--shadow-md);">
+        <img src="images/Color-Options.png" alt="Best Bath Crestline color options showing full palette of shower wall finishes" style="border-radius: 20px; box-shadow: var(--shadow-md);" loading="lazy" decoding="async">
       </div>
       <div class="reveal reveal-delay-1">
         <span class="eyebrow">Two shower configurations</span>
@@ -1783,11 +1861,11 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <p>A single-panel back wall is the fastest install and reads as one continuous slab of stone — cleanest visual, no seams in the sightline. A split-seam configuration lets us fit larger showers, alcove tub replacements, and non-standard dimensions common in older Littleton homes where nothing measures exactly what the tape says it should.</p>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px;">
           <div>
-            <img src="images/shower-kit-single-back-wall-example.webp" alt="Single-panel back wall Crestline shower kit example" style="border-radius: 12px; aspect-ratio: 1; object-fit: cover; width: 100%;">
+            <img src="images/shower-kit-single-back-wall-example.webp" alt="Single-panel back wall Crestline shower kit example" style="border-radius: 12px; aspect-ratio: 1; object-fit: cover; width: 100%;" loading="lazy" decoding="async">
             <div style="font-family: var(--f-sub); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); margin-top: 10px; text-align: center;">Single Panel Back Wall</div>
           </div>
           <div>
-            <img src="images/shower-remodel-split-back-wall-example.png" alt="Split-seam back wall Crestline shower kit example" style="border-radius: 12px; aspect-ratio: 1; object-fit: cover; width: 100%;">
+            <img src="images/shower-remodel-split-back-wall-example.png" alt="Split-seam back wall Crestline shower kit example" style="border-radius: 12px; aspect-ratio: 1; object-fit: cover; width: 100%;" loading="lazy" decoding="async">
             <div style="font-family: var(--f-sub); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); margin-top: 10px; text-align: center;">Split Seam Back Wall</div>
           </div>
         </div>
@@ -1820,8 +1898,37 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <p style="margin-bottom: 12px;"><b style="color: var(--teal-900);">4. Are permits pulled?</b> Any project that moves plumbing or electrical past a fixture swap needs one in Littleton. A contractor who skips this is putting your homeowner's insurance and your resale disclosures at risk.</p>
         <p style="margin-bottom: 12px;"><b style="color: var(--teal-900);">5. What's the waterproofing plan?</b> If you get a blank stare, walk away. The correct answers involve a Schluter Kerdi membrane, RedGard, or a pre-manufactured sloped pan system — not tar paper and hope.</p>
         <p style="margin-bottom: 12px;"><b style="color: var(--teal-900);">6. What happens if the project runs long?</b> A serious contractor will commit to a fixed calendar, not "we should be done by whenever."</p>
-        <p><b style="color: var(--teal-900);">7. Can I see three completed jobs in my ZIP?</b> Photos are easy. Actual addresses, real names, real reviews are harder to fake.</p>
+        <p><b style="color: var(--teal-900);">7. Can I buy the unit and install it myself?</b> Ask, because the answer tells you a lot. Ours is yes — supply-only is available, and the manufacturer warranty stays in full effect as long as it's installed to manufacturer guidelines.</p>
       </div>
+    </div>
+
+    <div style="margin-top: 80px;" class="reveal">
+      <div style="font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--coral); margin-bottom: 12px;">Price conditioning · straight talk</div>
+      <h3 style="font-size: clamp(26px, 3vw, 38px); margin-bottom: 16px; font-family: var(--f-display); font-style: italic; color: var(--teal-900); font-variation-settings: 'opsz' 144, 'SOFT' 100;">There is no single price for a bathroom remodel. Anyone who gives you one is guessing.</h3>
+      <p style="max-width: 860px;">Plenty of Colorado contractors quote $30,000 or more for a single custom shower. That's a real number in this market and sometimes it's even justified. But it is not the only number, and it should not be the number you anchor to before you know what you actually want. We build across the entire spectrum — premium and budget-conscious — and the installation parameters drive most of the difference: existing plumbing location, whether the drain moves, subfloor condition, wall configuration, door and glass choices, tile versus panel, and whether you want us to handle it start to finish or just supply the unit.</p>
+      <div class="price-spectrum">
+        <div class="ps-item">
+          <span class="k">Supply only</span>
+          <span class="v">Under $2,000</span>
+          <div class="n">Shower pans and base units, shipped to you. Install it yourself or hand it to your own contractor.</div>
+        </div>
+        <div class="ps-item">
+          <span class="k">Budget-friendly installed</span>
+          <span class="v">Under $10,000</span>
+          <div class="n">A complete shower remodel, fully installed, when the layout cooperates and the finish selections stay practical.</div>
+        </div>
+        <div class="ps-item">
+          <span class="k">Typical shower remodel</span>
+          <span class="v">$8.5K–$15K</span>
+          <div class="n">Tub-to-shower conversions and Crestline installs with upgraded doors, fixtures, and finishes.</div>
+        </div>
+        <div class="ps-item">
+          <span class="k">Full bath remodel</span>
+          <span class="v">$15K–$25K+</span>
+          <div class="n">Everything: shower, vanity, flooring, toilet, lighting, fixtures. Higher with premium selections.</div>
+        </div>
+      </div>
+      <p style="margin-top: 22px; max-width: 860px; font-size: 15.5px;">Every one of those numbers becomes a fixed written quote at the free consultation, once we've actually seen the room. Full detail on what drives each line is in the <a href="/bathroom-remodel-cost-littleton-co/">Littleton bathroom remodel cost guide</a>.</p>
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; margin-top: 80px;" class="reveal">
@@ -1833,7 +1940,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <div>
         <div style="font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--coral); margin-bottom: 12px;">Aging in place · Universal design</div>
         <h4 style="margin-bottom: 12px;">Designing a bathroom that lets you stay for the next 20 years.</h4>
-        <p style="font-size: 15.5px;">The CDC lists falls as the leading cause of injury for adults 65 and older, and the bathroom is where most bathroom falls happen — wet feet, hard surfaces, narrow doorways. A properly designed universal-design bathroom removes the specific hazards: curbless walk-in shower entry, a built-in bench, thermostatic anti-scald valves, comfort-height toilets, and grab bars anchored to solid blocking (not drywall anchors dressed up with a good story). Done right, none of it looks like a hospital. It just looks like a beautiful modern bathroom that happens to be safer. Fixr's analysis of the 2024–2025 JLC Cost vs. Value data shows universal-design remodels also outperforming conventional ones on ROI by roughly 12 percentage points.</p>
+        <p style="font-size: 15.5px;">The CDC lists falls as the leading cause of injury for adults 65 and older, and the bathroom is where a large share of household falls happen — wet feet, hard surfaces, narrow doorways. A properly designed universal-design bathroom removes the specific hazards: curbless walk-in shower entry, a built-in bench, thermostatic anti-scald valves, comfort-height toilets, and grab bars anchored to solid blocking (not drywall anchors dressed up with a good story). Done right, none of it looks like a hospital. It just looks like a beautiful modern bathroom that happens to be safer.</p>
       </div>
       <div>
         <div style="font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--coral); margin-bottom: 12px;">Timing &amp; Water Efficiency</div>
@@ -1861,7 +1968,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <div style="background: var(--white); border-radius: 18px; padding: 32px 30px; border: 1px solid var(--line);">
           <div style="font-family: var(--f-sub); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 10px;">03 · The new-build master</div>
           <h4 style="margin-bottom: 12px; font-size: 22px;">Highlands Ranch, Roxborough, 2000s–2020s</h4>
-          <p style="font-size: 15px;">Generous square footage, garden tubs that nobody uses, dated speckled granite, and standard-issue everything from the original builder. These are the projects where a full tile remodel really pays off — freestanding soaking tub or a big walk-in shower with a bench, custom vanity, waterproof LVT or heated tile floor, better lighting. Budget lives in the $22K–$45K range and the finished room is genuinely spa-caliber.</p>
+          <p style="font-size: 15px;">Generous square footage, garden tubs that nobody uses, dated speckled granite, and standard-issue everything from the original builder. These are the projects where a full tile remodel really pays off — freestanding soaking tub or a big walk-in shower with a bench, custom vanity, waterproof LVT or heated tile floor, better lighting. Budget usually lands in the $15K–$25K range and the finished room is genuinely spa-caliber.</p>
         </div>
         <div style="background: var(--white); border-radius: 18px; padding: 32px 30px; border: 1px solid var(--line);">
           <div style="font-family: var(--f-sub); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 10px;">04 · The aging-in-place remodel</div>
@@ -1885,11 +1992,12 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <div class="reveal">
         <span class="eyebrow">Instant estimate tool</span>
         <h2>How much will <em style="font-style: italic; color: var(--coral); font-variation-settings: 'opsz' 144, 'SOFT' 100;">your</em> Littleton bathroom remodel actually cost?</h2>
-        <p class="lead" style="margin-top: 20px;">Ballpark figures in five seconds. Real, honest ranges from 18 years of actual project data in the Denver metro. When you're ready for a fixed-price written quote, we do those free at your kitchen table.</p>
+        <p class="lead" style="margin-top: 20px;">Ballpark figures in five seconds. Real, honest ranges from 18 years of actual project data in the Denver metro — from supply-only pans under $2,000 to full custom builds. When you're ready for a fixed-price written quote, we do those free at your kitchen table.</p>
         <div class="pull-quote" style="background: rgba(255,255,255,0.7); margin-top: 30px;">
           "We don't do 'starting at' pricing that only exists in ad copy. Every quote we hand you is what the project actually costs — parts, labor, permits, cleanup, the whole thing."
           <cite>— Zach Wennstedt</cite>
         </div>
+        <p style="margin-top: 20px;"><a href="/bathroom-remodel-cost-littleton-co/">See the full cost breakdown for Littleton →</a></p>
       </div>
       <div class="est-panel reveal reveal-delay-1">
         <div class="est-field">
@@ -1897,25 +2005,25 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <div class="est-options" id="est-scope">
             <button type="button" class="est-option active" data-min="6900" data-max="10500">Turnkey Shower Kit<small>Crestline install</small></button>
             <button type="button" class="est-option" data-min="8500" data-max="14500">Tub-to-Shower<small>Conversion</small></button>
-            <button type="button" class="est-option" data-min="12000" data-max="28000">Midrange Full Remodel<small>Vanity, floor, fixtures</small></button>
-            <button type="button" class="est-option" data-min="22000" data-max="45000">Upscale Tile Remodel<small>Full custom build</small></button>
+            <button type="button" class="est-option" data-min="10000" data-max="18000">Midrange Full Remodel<small>Vanity, floor, fixtures</small></button>
+            <button type="button" class="est-option" data-min="15000" data-max="25000">Full Custom Tile<small>Top-tier build</small></button>
           </div>
         </div>
         <div class="est-field">
           <label>Bathroom size</label>
           <div class="est-options" id="est-size">
             <button type="button" class="est-option active" data-mult="1">Small<small>Under 40 sq ft</small></button>
-            <button type="button" class="est-option" data-mult="1.15">Standard<small>40–80 sq ft</small></button>
-            <button type="button" class="est-option" data-mult="1.35">Master<small>80–120 sq ft</small></button>
-            <button type="button" class="est-option" data-mult="1.6">Large Master<small>120+ sq ft</small></button>
+            <button type="button" class="est-option" data-mult="1.1">Standard<small>40–80 sq ft</small></button>
+            <button type="button" class="est-option" data-mult="1.2">Master<small>80–120 sq ft</small></button>
+            <button type="button" class="est-option" data-mult="1.3">Large Master<small>120+ sq ft</small></button>
           </div>
         </div>
         <div class="est-field">
           <label>Finish level</label>
           <div class="est-options" id="est-finish">
             <button type="button" class="est-option active" data-mult="1">Standard<small>Quality Best Bath materials</small></button>
-            <button type="button" class="est-option" data-mult="1.2">Premium<small>Upgraded fixtures &amp; finishes</small></button>
-            <button type="button" class="est-option" data-mult="1.45">Designer<small>Custom, top-tier everything</small></button>
+            <button type="button" class="est-option" data-mult="1.12">Premium<small>Upgraded fixtures &amp; finishes</small></button>
+            <button type="button" class="est-option" data-mult="1.25">Designer<small>Custom, top-tier everything</small></button>
           </div>
         </div>
         <div class="est-result">
@@ -2085,14 +2193,14 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <h2 style="margin-top: 20px;">Since <em style="font-style: italic; color: var(--coral); font-variation-settings: 'opsz' 144, 'SOFT' 100;">2008</em>. A+ BBB. One of Colorado's top Best Bath dealers.</h2>
         <p style="margin-top: 26px;">Zach Wennstedt started remodeling bathrooms in Colorado in 2008. What began as a specialty in walk-in tubs and accessibility remodels — the roots of the Aging Safely Baths brand — grew into full-service bathroom remodeling for every kind of homeowner: young families gutting the guest bath, empty-nesters finally treating themselves to the master they always wanted, and older adults planning to stay in the home for the next two decades.</p>
         <p>Aging Safely Baths is <b style="color: var(--white);">A+ BBB Accredited</b> — not just A-rated, actually accredited, which is a separate application and standards process. We're one of Colorado's <b style="color: var(--white);">top Best Bath dealers</b> — the Idaho manufacturer with 55+ years in the industry, whose composite showers carry a 30-year warranty and whose Crestline high-pressure laminate system installs in a single day. Best Bath doesn't hand out dealer certifications easily. You earn them by installing right.</p>
-        <p>Our <a href="#reviews">Google reviews average 4.9 stars</a> across more than a hundred jobs, and every installation is backed by an <b style="color: var(--white);">industry-leading 5-year workmanship warranty</b>. Most Colorado remodelers offer one year on labor. We stand behind ours for five, because we don't cut corners you'll only notice in year two.</p>
-        <p>We also charge less than the big-box installers that spend eight figures on cable-TV ads. Not because our work is worse — it's demonstrably better — but because we don't have to pay for Bob Vila's grandkids or a Denver Broncos radio spot. Our overhead is smaller. That savings goes to you.</p>
+        <p>Every installation is backed by an <b style="color: var(--white);">industry-leading 5-year workmanship warranty</b>. Most Colorado remodelers offer one year on labor. We stand behind ours for five, because we don't cut corners you'll only notice in year two.</p>
+        <p>We also charge less than the big-box installers that spend eight figures on cable-TV ads. Not because our work is worse — it's demonstrably better — but because we don't have to pay for a network of franchise fees and a Denver Broncos radio spot. Our overhead is smaller. That savings goes to you. And if you'd rather buy the unit outright and have your own contractor install it, that's a real option here, with the manufacturer warranty fully intact.</p>
         <p style="margin-top: 28px;">
           <a href="https://agingsafelybaths.com" rel="dofollow">Learn more about Aging Safely Baths →</a>
         </p>
       </div>
       <div class="auth-visual reveal reveal-delay-1">
-        <img src="images/littleton-co-bathroom-remodeling.jpg" alt="Aging Safely Baths installation crew completing a bathroom remodel in Littleton, Colorado">
+        <img src="images/littleton-co-bathroom-remodeling.jpg" alt="Aging Safely Baths installation crew completing a bathroom remodel in Littleton, Colorado" loading="lazy" decoding="async">
         <div class="auth-badges">
           <span class="auth-badge">A+ BBB</span>
           <span class="auth-badge">Best Bath Dealer</span>
@@ -2109,8 +2217,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">What Littleton homeowners say</span>
-      <h2>4.9 stars across <em style="font-style: italic; color: var(--coral); font-variation-settings: 'opsz' 144, 'SOFT' 100;">127</em> reviews.</h2>
-      <p class="lead">A selection of feedback from actual Aging Safely Baths customers in the Denver-metro area.</p>
+      <h2>The room they use every morning, <em style="font-style: italic; color: var(--coral); font-variation-settings: 'opsz' 144, 'SOFT' 100;">finally</em> right.</h2>
+      <p class="lead">A selection of feedback from Aging Safely Baths customers in the Denver-metro area.</p>
     </div>
     <div class="reviews-grid">
       <div class="review-card reveal reveal-delay-1">
@@ -2229,51 +2337,55 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">How much does a bathroom remodel cost in Littleton, Colorado?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">In Littleton, a midrange bathroom remodel typically runs between $12,000 and $28,000 depending on size and scope. A turnkey Crestline shower kit installation starts around $6,900. A full tile bathroom remodel with custom cabinetry and premium fixtures generally ranges from $22,000 to $45,000. The 2025 Zonda Cost vs. Value Report shows midrange bathroom remodels recouping approximately 74–80% of cost at resale nationally — the highest ROI level since 2007. Every Aging Safely Baths quote is fixed-price with no surprise change orders.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">It depends entirely on scope, and the range is wider than most contractors admit. Supply-only shower pans start under $2,000. Budget-friendly shower remodels can finish under $10,000 fully installed. A turnkey Crestline shower kit installation starts around $6,900. Tub-to-shower conversions typically run $8,500 to $14,500. A midrange full bathroom remodel generally lands between $10,000 and $18,000, and a full custom tile build with premium fixtures runs $15,000 to $25,000 and up. Plenty of Colorado contractors quote $30,000 or more for a custom shower alone. We build across the whole spectrum, premium and budget, and every quote is fixed-price with no surprise change orders.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How long does a bathroom remodel take?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Timelines depend on scope. A Crestline turnkey shower kit typically installs in one day. A tub-to-shower conversion runs 2–4 days. A full tile bathroom remodel usually takes 3–4 weeks from demolition to final walkthrough. We schedule your project on a fixed calendar and never leave your bathroom torn open for weeks with no crew on site.</div></div>
+        <button class="faq-q" aria-expanded="false">How long does a bathroom remodel take in Littleton?<span class="faq-toggle" aria-hidden="true"></span></button>
+        <div class="faq-a"><div style="padding-top: 4px;">Timelines depend on scope. A Crestline turnkey shower kit typically installs in one day. A tub-to-shower conversion runs 2–4 days. A full tile bathroom remodel usually takes 3–4 weeks from demolition to final walkthrough. We schedule your project on a fixed calendar and never leave your bathroom open for weeks with no crew on site.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Who is the best bathroom remodeler in Littleton?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Aging Safely Baths has been remodeling bathrooms in Littleton and the greater Denver metro since 2008. We hold A+ BBB accreditation, are certified Best Bath dealers, back every installation with a 5-year workmanship warranty, and Google reviews average 4.9 stars across 100+ jobs. Owner Zach Wennstedt personally reviews every design before installation begins.</div></div>
+        <button class="faq-q" aria-expanded="false">Who is the best bathroom remodeler in Littleton, CO?<span class="faq-toggle" aria-hidden="true"></span></button>
+        <div class="faq-a"><div style="padding-top: 4px;">Aging Safely Baths has been remodeling bathrooms in Littleton and the greater Denver metro since 2008. We hold A+ BBB accreditation, are certified Best Bath dealers, and back every installation with a 5-year workmanship warranty. Owner Zach Wennstedt personally reviews every design before installation begins.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Do you handle shower remodels only, or full bathrooms?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Both. We handle turnkey Crestline shower kits, tub-to-shower conversions, walk-in tubs, full tile shower builds, and complete bathroom remodels including vanities, flooring, toilets, lighting, and plumbing. If you're looking for supply-only shower kits for a DIY install, our sister site <a href="https://showers4less.com" rel="dofollow">Showers4Less.com</a> handles that. This site is for full turn-key installations only.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Both. We do turnkey Crestline shower kit installations, tub-to-shower conversions, walk-in tubs, full tile shower builds, and complete bathroom remodels including vanities, flooring, toilets, lighting, and plumbing. If you're looking for supply-only shower kits for a DIY or own-contractor install, our sister site <a href="https://showers4less.com" rel="dofollow">Showers4Less.com</a> handles that.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I buy the shower or walk-in tub and have my own contractor install it?<span class="faq-toggle" aria-hidden="true"></span></button>
+        <div class="faq-a"><div style="padding-top: 4px;">Yes. Homeowners can order supply-only shower pans, wall systems, and hydrotherapy bathtubs and have their own contractor handle the installation. The manufacturer warranty remains in full effect as long as the unit is installed according to manufacturer guidelines. Supply-only orders are handled through our sister site <a href="https://showers4less.com" rel="dofollow">Showers4Less.com</a>. Our workmanship warranty only applies to work our own crews perform.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">What is a Crestline shower system?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Crestline is Best Bath's high-pressure laminate shower wall system. Panels are 3/8-inch thick with an HPL surface on a marine-grade plywood backer with a factory vapor barrier. The system is grout-free, non-porous, mold-resistant, and installs in a single day over most existing substrates. Best Bath backs the composite shower construction with a 30-year manufacturer warranty. Available patterns include Beige Limestone, Dark Grey Marble, Grey Slate, and White Marble.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Crestline is Best Bath's high-pressure laminate shower wall system. Panels are 3/8-inch thick with an HPL front surface on a marine-grade plywood backer with a vapor barrier. The system is grout-free, non-porous, mold-resistant, and installs in a single day over most existing substrates. Best Bath backs the composite shower construction with a 30-year manufacturer warranty. Available patterns include beige limestone, dark grey marble, grey slate, and white marble.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Are you licensed and insured to remodel bathrooms in Colorado?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Yes. Aging Safely Baths carries full commercial general liability insurance and workers' compensation coverage. All plumbing and electrical work is performed by Colorado-licensed subcontractors under permit where required by the City of Littleton, Arapahoe County, Jefferson County, or Douglas County depending on your address. Copies of insurance and licensing are provided at the free in-home consultation.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Yes. Aging Safely Baths carries full commercial general liability insurance and workers' compensation coverage. All plumbing and electrical work is performed by Colorado-licensed subcontractors under permit where required by the City of Littleton, Arapahoe County, Jefferson County, or Douglas County depending on your address.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">What areas around Littleton do you serve?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">We service all of Littleton (ZIPs 80120, 80121, 80122, 80123, 80124, 80125, 80126, 80127, 80128, 80129, 80130) plus Highlands Ranch, Centennial, Englewood, Ken Caryl, Columbine, Bow Mar, Roxborough Park, Lakewood, Morrison, Sheridan, and the greater south Denver metro. In-home consultations across this area are free with no obligation.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">We service all of Littleton (80120, 80121, 80122, 80123, 80124, 80125, 80126, 80127, 80128, 80129, 80130) plus Highlands Ranch, Centennial, Englewood, Ken Caryl, Columbine, Bow Mar, Roxborough Park, Lakewood, Morrison, Sheridan, and the greater south Denver metro. In-home consultations across this area are free with no obligation.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Do you offer financing for bathroom remodels?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Yes. We work with several home improvement lenders offering low-monthly-payment plans, deferred interest promotions, and long-term fixed-rate options. Financing terms are presented in writing during the free in-home consultation so there are no surprises. Approval is typically same-day for well-qualified applicants.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Yes. We work with several home improvement lenders offering low-monthly-payment plans, deferred interest promotions, and long-term fixed-rate options. Financing terms are presented in writing during the free in-home consultation so there are no surprises.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">What is included in your 5-year workmanship warranty?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Our 5-year workmanship warranty covers all labor performed by Aging Safely Baths crews: tile installation, waterproofing, plumbing connections, fixture setting, cabinetry installation, and finish work. Manufacturer warranties on Best Bath Crestline systems (30 years), plumbing fixtures, and materials pass through directly. This is industry-leading — most Colorado remodelers offer 1 year on workmanship.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Our 5-year workmanship warranty covers all labor performed by Aging Safely Baths crews: tile installation, waterproofing, plumbing connections, fixture setting, cabinetry installation, and finish work. Manufacturer warranties on Best Bath Crestline systems (30 years), fixtures, and materials pass through directly. This is industry-leading. Most Colorado remodelers offer 1 year on workmanship.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Can you match my existing home style in a historic Littleton home?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Absolutely. Downtown Littleton has a strong stock of homes built between 1890 and 1950 with unique proportions, plaster walls, and cast-iron drains. We handle historic-home bathroom remodels regularly, working around framing quirks and matching period-appropriate tile, subway patterns, hex mosaics, and vintage-style fixtures — without compromising modern waterproofing standards, GFCI protection, or code compliance.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Absolutely. Downtown Littleton has a strong stock of homes built between 1890 and 1950 with unique proportions, plaster walls, and cast-iron drains. We handle historic-home bathroom remodels regularly, working around framing quirks and matching period-appropriate tile, subway patterns, hex mosaics, and vintage-style fixtures without compromising modern waterproofing standards.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Do you install walk-in tubs for aging in place?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Yes — this is where Aging Safely Baths started. We install ADA-compliant walk-in bathtubs with low-threshold entry, molded seating, hydrotherapy jets, and built-in grab bars. We also handle curbless walk-in showers, safety grab bar installation, non-slip flooring, and comfort-height toilets. Every accessibility remodel is designed to look like a bathroom, not a hospital.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">Yes, this is where Aging Safely Baths started. We install ADA-compliant walk-in bathtubs with low-threshold entry, molded seating, hydrotherapy jets, and built-in grab bars. We also handle curbless walk-in showers, safety grab bar installation, non-slip flooring, and comfort-height toilets. Every accessibility remodel is designed to look like a bathroom, not a hospital.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How do I get a quote?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">Call <a href="tel:18887792284">1-888-779-2284</a> or fill out the consultation form. We'll set a free in-home visit within a few days — evenings and Saturdays available. Bring your questions, your Pinterest board, or nothing at all. You'll leave the consultation with a written fixed-price quote, a proposed schedule, and financing options if you want them.</div></div>
+        <button class="faq-q" aria-expanded="false">How do I get a quote for a Littleton bathroom remodel?<span class="faq-toggle" aria-hidden="true"></span></button>
+        <div class="faq-a"><div style="padding-top: 4px;">Call <a href="tel:18887792284">1-888-779-2284</a> or fill out the consultation form. We'll set a free in-home visit within a few days, with evenings and Saturdays available. You'll leave the consultation with a written fixed-price quote, a proposed schedule, and financing options if you want them.</div></div>
       </div>
     </div>
   </div>
@@ -2344,19 +2456,28 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <div id="mainFormFields">
           <h3>Request Your Free Consultation</h3>
           <p class="sub">Takes 30 seconds. We reply within one business day.</p>
-          <form id="consultForm" action="https://formsubmit.co/info@eyetoad.com" method="POST" onsubmit="return validateForm(event, 'main')">
-            <input type="hidden" name="_subject" value="🚿 New Littleton CO Bathroom Remodel Consultation Request">
+          <form id="consultForm" novalidate>
+            <input type="hidden" name="_subject" value="New Littleton CO Bathroom Remodel Consultation Request">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://bathroomremodellittletonco.com/#thanks">
-            <input type="hidden" name="_source" value="bathroomremodellittletonco.com — main form">
+
+            <!-- Lead source notation (populated by JS at submit) -->
+            <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — main consultation form">
+            <input type="hidden" name="Form Location" value="Homepage / #consultation section">
+            <input type="hidden" name="Page URL" class="lead-page-url">
+            <input type="hidden" name="Page Title" class="lead-page-title">
+            <input type="hidden" name="Referrer" class="lead-referrer">
+            <input type="hidden" name="Submitted At" class="lead-timestamp">
+            <input type="hidden" name="js_check" class="js-check">
             <input type="hidden" name="form_start_time" id="mainFormStart">
 
-            <!-- Honeypot -->
+            <!-- Honeypots -->
             <div class="honeypot" aria-hidden="true">
               <label for="_honey">Leave this field blank</label>
               <input type="text" name="_honey" id="_honey" tabindex="-1" autocomplete="off">
               <input type="text" name="winnie" tabindex="-1" autocomplete="off">
+              <input type="email" name="contact_email_confirm" tabindex="-1" autocomplete="off">
+              <input type="url" name="website_url" tabindex="-1" autocomplete="off">
             </div>
 
             <div class="form-row">
@@ -2382,7 +2503,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
             <div class="form-row">
               <div class="form-field">
                 <label for="mZip">Littleton-area ZIP</label>
-                <input type="text" id="mZip" name="ZIP" required autocomplete="postal-code" placeholder="80120" pattern="[0-9]{5}">
+                <input type="text" id="mZip" name="ZIP" required autocomplete="postal-code" placeholder="80120" pattern="[0-9]{5}" inputmode="numeric" maxlength="5">
               </div>
               <div class="form-field">
                 <label for="mScope">Project Type</label>
@@ -2392,13 +2513,14 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
                   <option>Tub-to-shower conversion</option>
                   <option>Full tile bathroom remodel</option>
                   <option>Walk-in tub / accessibility</option>
+                  <option>Supply only (I have my own installer)</option>
                   <option>Not sure yet</option>
                 </select>
               </div>
             </div>
             <div class="form-field full" style="margin-bottom: 16px;">
               <label for="mNotes">Tell us about your project (optional)</label>
-              <textarea id="mNotes" name="Project Notes" placeholder="Best time to reach you, rough timeline, questions…"></textarea>
+              <textarea id="mNotes" name="Project Notes" placeholder="Best time to reach you, rough timeline, budget range, questions…"></textarea>
             </div>
 
             <div class="captcha-row">
@@ -2410,6 +2532,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
               Send My Free Consultation Request
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
             </button>
+            <div class="form-error" id="mainError"></div>
             <p class="form-note">Your info stays private. No spam. We reply within one business day.</p>
           </form>
         </div>
@@ -2428,18 +2551,19 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <div class="wrap">
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="images/bathroom-remodel-littleton-co-logo.png" alt="Bathroom Remodel Littleton CO logo" width="270" height="74">
+        <img src="images/bathroom-remodel-littleton-co-logo.png" alt="Bathroom Remodel Littleton CO logo" width="270" height="74" loading="lazy" decoding="async">
         <p>Turn-key bathroom remodels in Littleton, Colorado since 2008. A division of Aging Safely Baths — A+ BBB accredited, certified Best Bath dealer.</p>
         <p style="margin-top: 14px; font-family: var(--f-mono); font-size: 13px;"><a href="tel:18887792284" style="color: var(--teal-900);">1-888-779-2284</a></p>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
+          <li><a href="/shower-remodel-littleton-co/">Shower Remodel Littleton</a></li>
+          <li><a href="/bathroom-remodel-cost-littleton-co/">Remodel Cost Guide</a></li>
           <li><a href="#services">Full Tile Bathroom Remodels</a></li>
           <li><a href="#crestline">Crestline Shower Kits</a></li>
           <li><a href="#services">Tub-to-Shower Conversion</a></li>
           <li><a href="#services">Walk-In Tubs</a></li>
-          <li><a href="#services">Accessible Bathrooms</a></li>
           <li><a href="#estimator">Cost Estimator</a></li>
         </ul>
       </div>
@@ -2459,10 +2583,10 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <h4>Related Sites</h4>
         <ul>
           <li><a href="https://agingsafelybaths.com" rel="dofollow">Aging Safely Baths</a></li>
-          <li><a href="https://showers4less.com" rel="dofollow">Showers4Less (DIY kits)</a></li>
+          <li><a href="https://showers4less.com" rel="dofollow">Showers4Less (supply only)</a></li>
           <li><a href="https://seniorwalkintub.com" rel="dofollow">Senior Walk-In Tubs</a></li>
-          <li><a href="sitemap.html">HTML Sitemap</a></li>
-          <li><a href="sitemap.xml">XML Sitemap</a></li>
+          <li><a href="/sitemap/">HTML Sitemap</a></li>
+          <li><a href="/sitemap.xml">XML Sitemap</a></li>
         </ul>
       </div>
     </div>
@@ -2481,17 +2605,27 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <span class="modal-eyebrow">Free · No Obligation</span>
       <h3 id="popupTitle">Get 60 minutes with a designer. Free.</h3>
       <p>Real Best Bath samples. Fixed written quote before we leave. Just your name and phone to start.</p>
-      <form id="popupForm" action="https://formsubmit.co/info@eyetoad.com" method="POST" onsubmit="return validateForm(event, 'popup')">
-        <input type="hidden" name="_subject" value="⚡ POPUP: Littleton CO Bathroom Consultation Request">
+      <form id="popupForm" novalidate>
+        <input type="hidden" name="_subject" value="POPUP: Littleton CO Bathroom Consultation Request">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://bathroomremodellittletonco.com/#thanks">
-        <input type="hidden" name="_source" value="bathroomremodellittletonco.com — popup modal">
+
+        <!-- Lead source notation (populated by JS at submit) -->
+        <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — exit/scroll popup modal">
+        <input type="hidden" name="Form Location" value="Homepage / popup modal">
+        <input type="hidden" name="Popup Trigger" id="popupTrigger" value="unknown">
+        <input type="hidden" name="Page URL" class="lead-page-url">
+        <input type="hidden" name="Page Title" class="lead-page-title">
+        <input type="hidden" name="Referrer" class="lead-referrer">
+        <input type="hidden" name="Submitted At" class="lead-timestamp">
+        <input type="hidden" name="js_check" class="js-check">
         <input type="hidden" name="form_start_time" id="popupFormStart">
 
         <div class="honeypot" aria-hidden="true">
           <input type="text" name="_honey" tabindex="-1" autocomplete="off">
           <input type="text" name="winnie" tabindex="-1" autocomplete="off">
+          <input type="email" name="contact_email_confirm" tabindex="-1" autocomplete="off">
+          <input type="url" name="website_url" tabindex="-1" autocomplete="off">
         </div>
 
         <div class="form-field">
@@ -2507,6 +2641,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <input type="number" id="pCaptcha" name="Captcha Answer" required placeholder="Answer" autocomplete="off">
         </div>
         <button type="submit" class="btn btn-primary form-submit">Book My Free Consultation</button>
+        <div class="form-error" id="popupError"></div>
         <p class="form-note">By submitting you agree to a callback about your project. No spam.</p>
       </form>
       <div class="modal-perks">
@@ -2550,7 +2685,6 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   v.addEventListener('seeked', () => {
     if (v.paused) v.play().catch(()=>{});
   });
-  // Kick off playback (some browsers need this)
   const tryPlay = () => v.play().catch(()=>{});
   v.addEventListener('canplay', tryPlay, { once: true });
   document.addEventListener('click', tryPlay, { once: true });
@@ -2591,7 +2725,6 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     btn.addEventListener('click', () => {
       const item = btn.parentElement;
       const open = item.classList.contains('open');
-      // Close others
       document.querySelectorAll('.faq-item.open').forEach(o => {
         if (o !== item) {
           o.classList.remove('open');
@@ -2636,10 +2769,6 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   const out = document.getElementById('est-range');
   if (!scope || !out) return;
 
-  const format = (n) => '$' + Math.round(n/100)*100 >= 10000
-    ? '$' + Math.round(n/500)*500/1000 + 'K'
-    : '$' + (Math.round(n/100)*100).toLocaleString();
-
   function fmt(n) {
     if (n >= 10000) {
       const k = n / 1000;
@@ -2674,86 +2803,177 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   update();
 })();
 
-// ==================== FORM VALIDATION + SPAM PROTECTION ====================
-// 5-layer stack: honeypot (2 fields), time-trap (≥4s), math captcha, spam keyword filter, JS-check hidden field
-function initFormTimer(id) {
-  const el = document.getElementById(id);
-  if (el) el.value = Date.now();
-}
-initFormTimer('mainFormStart');
-initFormTimer('popupFormStart');
+// ============================================================================
+// FORM HANDLING — 7-layer spam stack + JS-assembled endpoint
+// Layers: (1) endpoint never in HTML  (2) four honeypots  (3) time trap ≥4s
+//         (4) math captcha  (5) spam keyword filter  (6) js_check field
+//         (7) link/unicode filter on free text
+// Delivery states are honest: confirmed / failed. Nothing fakes success.
+// ============================================================================
+(function(){
 
-// Randomize captcha
-function setCaptcha(aId, bId) {
-  const a = Math.floor(Math.random() * 7) + 2;
-  const b = Math.floor(Math.random() * 7) + 2;
-  const aEl = document.getElementById(aId);
-  const bEl = document.getElementById(bId);
-  if (aEl) aEl.textContent = a;
-  if (bEl) bEl.textContent = b;
-  return a + b;
-}
-let mainCaptchaAnswer = setCaptcha('mCaptA', 'mCaptB');
-let popupCaptchaAnswer = setCaptcha('pCaptA', 'pCaptB');
+  // --- Layer 1: endpoint assembled at submit time, never present in markup ---
+  function buildEndpoint() {
+    const host = ['forms', 'ubmit', '.co'].join('');
+    const user = ['inf', 'o'].join('');
+    const domain = ['eyeto', 'ad', '.com'].join('');
+    return 'https://' + host + '/ajax/' + user + String.fromCharCode(64) + domain;
+  }
 
-const SPAM_KEYWORDS = ['viagra','casino','crypto','bitcoin','loan','seo services','backlink','http://','https://','.ru','.cn','порно','www.','click here','free money','best rates'];
+  // --- Populate lead-source notation fields ---
+  function stampLeadFields(form) {
+    const url = form.querySelector('.lead-page-url');
+    const title = form.querySelector('.lead-page-title');
+    const ref = form.querySelector('.lead-referrer');
+    const ts = form.querySelector('.lead-timestamp');
+    if (url) url.value = window.location.href;
+    if (title) title.value = document.title;
+    if (ref) ref.value = document.referrer || 'Direct / none';
+    if (ts) ts.value = new Date().toLocaleString('en-US', { timeZone: 'America/Denver' }) + ' MT';
+  }
 
-function containsSpam(str) {
-  const s = (str || '').toLowerCase();
-  return SPAM_KEYWORDS.some(k => s.includes(k));
-}
+  // --- Layer 6: js_check stamped only by a real browser running JS ---
+  document.querySelectorAll('.js-check').forEach(el => { el.value = 'human-js-ok'; });
 
-function validateForm(e, kind) {
-  e.preventDefault();
-  const form = e.target;
+  // --- Layer 3: time trap ---
+  function initFormTimer(id) {
+    const el = document.getElementById(id);
+    if (el) el.value = Date.now();
+  }
+  initFormTimer('mainFormStart');
+  initFormTimer('popupFormStart');
 
-  // Layer 1 & 2: Honeypots
-  const honey1 = form.querySelector('input[name="_honey"]');
-  const honey2 = form.querySelector('input[name="winnie"]');
-  if ((honey1 && honey1.value) || (honey2 && honey2.value)) {
-    // Silent fail
+  // --- Layer 4: math captcha ---
+  function setCaptcha(aId, bId) {
+    const a = Math.floor(Math.random() * 7) + 2;
+    const b = Math.floor(Math.random() * 7) + 2;
+    const aEl = document.getElementById(aId);
+    const bEl = document.getElementById(bId);
+    if (aEl) aEl.textContent = a;
+    if (bEl) bEl.textContent = b;
+    return a + b;
+  }
+  let mainCaptchaAnswer = setCaptcha('mCaptA', 'mCaptB');
+  let popupCaptchaAnswer = setCaptcha('pCaptA', 'pCaptB');
+  window.__resetPopupCaptcha = function(){ popupCaptchaAnswer = setCaptcha('pCaptA', 'pCaptB'); };
+  window.__resetPopupTimer = function(){ initFormTimer('popupFormStart'); };
+
+  // --- Layer 5: spam keyword filter ---
+  const SPAM_KEYWORDS = ['viagra','casino','crypto','bitcoin','payday','loan offer','seo services','backlink','link building','guest post','http://','https://','www.','.ru','.cn','click here','free money','best rates','make money','earn extra','telegram','whatsapp group'];
+  function containsSpam(str) {
+    const s = (str || '').toLowerCase();
+    return SPAM_KEYWORDS.some(k => s.includes(k));
+  }
+
+  // --- Layer 7: link + non-latin script filter on free text ---
+  function looksAutomated(str) {
+    const s = str || '';
+    if (/[\u0400-\u04FF\u4E00-\u9FFF\u0600-\u06FF]/.test(s)) return true;   // cyrillic / CJK / arabic
+    if ((s.match(/\b(?:https?:\/\/|www\.)/gi) || []).length > 0) return true;
+    if (s.length > 1200) return true;
     return false;
   }
 
-  // Layer 3: Time trap (≥4s to fill form)
-  const startEl = form.querySelector('input[name="form_start_time"]');
-  if (startEl && startEl.value) {
-    const elapsed = (Date.now() - +startEl.value) / 1000;
-    if (elapsed < 4) {
-      alert('Please take a moment to review your submission.');
-      return false;
+  function showError(kind, msg) {
+    const el = document.getElementById(kind === 'popup' ? 'popupError' : 'mainError');
+    if (!el) return;
+    el.textContent = msg;
+    el.classList.add('show');
+  }
+  function clearError(kind) {
+    const el = document.getElementById(kind === 'popup' ? 'popupError' : 'mainError');
+    if (el) { el.textContent = ''; el.classList.remove('show'); }
+  }
+
+  function showSuccess(kind) {
+    if (kind === 'popup') {
+      document.getElementById('popupFields').style.display = 'none';
+      document.getElementById('popupSuccess').classList.add('show');
+    } else {
+      document.getElementById('mainFormFields').style.display = 'none';
+      document.getElementById('mainSuccess').classList.add('show');
     }
   }
 
-  // Layer 4: Math CAPTCHA
-  const captchaField = form.querySelector('input[name="Captcha Answer"]');
-  const expected = kind === 'popup' ? popupCaptchaAnswer : mainCaptchaAnswer;
-  if (captchaField && +captchaField.value !== expected) {
-    alert('Please recheck the quick math question.');
+  async function handleSubmit(e, kind) {
+    e.preventDefault();
+    const form = e.target;
+    clearError(kind);
+
+    // Layer 2: honeypots — silent fail, bot gets no feedback
+    const traps = ['_honey', 'winnie', 'contact_email_confirm', 'website_url'];
+    for (const t of traps) {
+      const f = form.querySelector('input[name="' + t + '"]');
+      if (f && f.value.trim() !== '') return false;
+    }
+
+    // Layer 6: js_check
+    const jsCheck = form.querySelector('.js-check');
+    if (!jsCheck || jsCheck.value !== 'human-js-ok') return false;
+
+    // Native required-field validation
+    if (!form.checkValidity()) {
+      showError(kind, 'Please fill in every required field before sending.');
+      form.reportValidity();
+      return false;
+    }
+
+    // Layer 3: time trap (≥4s)
+    const startEl = form.querySelector('input[name="form_start_time"]');
+    if (startEl && startEl.value) {
+      const elapsed = (Date.now() - +startEl.value) / 1000;
+      if (elapsed < 4) {
+        showError(kind, 'Please take a moment to review your submission, then send again.');
+        return false;
+      }
+    }
+
+    // Layer 4: math captcha
+    const captchaField = form.querySelector('input[name="Captcha Answer"]');
+    const expected = kind === 'popup' ? popupCaptchaAnswer : mainCaptchaAnswer;
+    if (captchaField && +captchaField.value !== expected) {
+      showError(kind, 'That math answer did not match. Please try again.');
+      return false;
+    }
+
+    // Layers 5 + 7: content filters — silent fail
+    const nameField = form.querySelector('input[name="First Name"], input[name="Name"]');
+    const notesField = form.querySelector('textarea');
+    const nameVal = nameField ? nameField.value : '';
+    const notesVal = notesField ? notesField.value : '';
+    if (containsSpam(nameVal) || containsSpam(notesVal)) return false;
+    if (looksAutomated(nameVal) || looksAutomated(notesVal)) return false;
+
+    // Stamp lead source, then send
+    stampLeadFields(form);
+
+    const btn = form.querySelector('.form-submit');
+    const btnHTML = btn ? btn.innerHTML : '';
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+
+    const data = new FormData(form);
+    traps.forEach(t => data.delete(t));
+
+    try {
+      const res = await fetch(buildEndpoint(), {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      showSuccess(kind);
+    } catch (err) {
+      if (btn) { btn.disabled = false; btn.innerHTML = btnHTML; }
+      showError(kind, 'We could not send that just now. Please call 1-888-779-2284 or email info@eyetoad.com and we will get right back to you.');
+    }
     return false;
   }
 
-  // Layer 5: Spam keyword filter (on notes/name)
-  const nameField = form.querySelector('input[name="First Name"], input[name="Name"]');
-  const notesField = form.querySelector('textarea');
-  if ((nameField && containsSpam(nameField.value)) || (notesField && containsSpam(notesField.value))) {
-    // Silent fail
-    return false;
-  }
-
-  // All checks passed — submit
-  form.submit();
-
-  // Show success state immediately
-  if (kind === 'popup') {
-    document.getElementById('popupFields').style.display = 'none';
-    document.getElementById('popupSuccess').classList.add('show');
-  } else {
-    document.getElementById('mainFormFields').style.display = 'none';
-    document.getElementById('mainSuccess').classList.add('show');
-  }
-  return false;
-}
+  const mainForm = document.getElementById('consultForm');
+  const popupForm = document.getElementById('popupForm');
+  if (mainForm) mainForm.addEventListener('submit', (e) => handleSubmit(e, 'main'));
+  if (popupForm) popupForm.addEventListener('submit', (e) => handleSubmit(e, 'popup'));
+})();
 
 // ==================== POPUP MODAL TRIGGERS ====================
 (function(){
@@ -2761,16 +2981,17 @@ function validateForm(e, kind) {
   const SHOWN_KEY = 'brltc_popup_shown_v1';
   let shown = false;
 
-  function openPopup() {
+  function openPopup(trigger) {
     if (shown) return;
     if (sessionStorage.getItem(SHOWN_KEY)) return;
     shown = true;
-    sessionStorage.setItem(SHOWN_KEY, '1');
+    try { sessionStorage.setItem(SHOWN_KEY, '1'); } catch(e) {}
+    const trg = document.getElementById('popupTrigger');
+    if (trg) trg.value = trigger || 'unknown';
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
-    // Reset the form timer when popup opens
-    initFormTimer('popupFormStart');
-    popupCaptchaAnswer = setCaptcha('pCaptA', 'pCaptB');
+    if (window.__resetPopupTimer) window.__resetPopupTimer();
+    if (window.__resetPopupCaptcha) window.__resetPopupCaptcha();
   }
 
   window.closePopup = function() {
@@ -2778,36 +2999,31 @@ function validateForm(e, kind) {
     document.body.style.overflow = '';
   };
 
-  // Trigger 1: Time-based (35s)
-  setTimeout(openPopup, 35000);
+  setTimeout(() => openPopup('35s timer'), 35000);
 
-  // Trigger 2: Exit-intent (mouse leaves top of viewport)
   document.addEventListener('mouseleave', (e) => {
-    if (e.clientY <= 0) openPopup();
+    if (e.clientY <= 0) openPopup('exit intent');
   });
 
-  // Trigger 3: Deep scroll (65% of page)
   let deepFired = false;
   window.addEventListener('scroll', () => {
     if (deepFired) return;
     const scrolled = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
     if (scrolled > 0.65) {
       deepFired = true;
-      openPopup();
+      openPopup('65% scroll depth');
     }
   }, { passive: true });
 
-  // Close on overlay click
   modal.addEventListener('click', (e) => {
     if (e.target === modal) closePopup();
   });
-  // Close on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('open')) closePopup();
   });
 })();
 
-// ==================== SMOOTH SCROLL & NAV HIGHLIGHT ====================
+// ==================== SMOOTH SCROLL ====================
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', (e) => {
     const id = a.getAttribute('href');
