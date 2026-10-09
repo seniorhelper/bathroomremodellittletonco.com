@@ -1517,7 +1517,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   </nav>
   <div class="m-cta">
     <a href="tel:18887792284">Call 1-888-779-2284</a>
-    <a href="mailto:info@eyetoad.com">info@eyetoad.com</a>
+    <a class="eml" href="#consultation" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">Email us</a>
   </div>
 </div>
 
@@ -2027,7 +2027,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
             </div>
             <div class="cd-body">
               <span class="k">Email</span>
-              <span class="v"><a href="mailto:info@eyetoad.com">info@eyetoad.com</a></span>
+              <span class="v"><a class="eml" href="#consultation" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">Email us</a></span>
             </div>
           </div>
           <div class="contact-detail">
@@ -2565,7 +2565,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       showSuccess(kind);
     } catch (err) {
       if (btn) { btn.disabled = false; btn.innerHTML = btnHTML; }
-      showError(kind, 'We could not send that just now. Please call 1-888-779-2284 or email info@eyetoad.com and we will get right back to you.');
+      showError(kind, 'We could not send that just now. Please call 1-888-779-2284 and we will get right back to you.');
     }
     return false;
   }
@@ -2636,6 +2636,9 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     window.scrollTo({ top: y, behavior: 'smooth' });
   });
 });
+</script>
+<script>
+document.querySelectorAll('a.eml[data-a][data-b]').forEach(function(a){try{var e=atob(a.getAttribute('data-a'))+String.fromCharCode(64)+atob(a.getAttribute('data-b'));a.href='mailto:'+e;a.textContent=e;}catch(x){}});
 </script>
 </body>
 </html>
