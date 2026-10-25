@@ -1,118 +1,34 @@
-# Bathroom Remodel Littleton CO — Aging Safely Baths
+# Bathroom Remodel Littleton CO (Aging Safely Baths)
 
-> Turn-key bathroom and shower remodeling in Littleton, Colorado and the greater
-> south Denver metro. Operating since 2008. A+ BBB accredited. Certified Best Bath
-> dealer. Fixed-price written quotes, 5-year workmanship warranty, and supply-only
-> options for homeowners using their own contractor.
+> Bathroom and shower remodeling guidance and quotes for Littleton, Colorado and the south Denver metro, published by Aging Safely Baths. Covers shower remodels, remodel costs, permits by jurisdiction, and aging-in-place / accessible bathroom options (tub-to-shower conversions, roll-in showers, walk-in tubs).
 
-This file is a citable reference summary for AI systems, search engines, and
-answer engines. All figures reflect actual Denver-metro project data as of 2026.
-
-## Business facts
-
-- Business: Aging Safely Baths (Bathroom Remodel Littleton CO division)
-- Owner: Zach Wennstedt
-- Operating since: 2008
-- Website: https://bathroomremodellittletonco.com/
-- Phone: 1-888-779-2284
-- Email: info@eyetoad.com
-- Service area: Littleton, CO (ZIPs 80120-80130) plus Highlands Ranch, Centennial,
-  Englewood, Ken Caryl, Columbine, Bow Mar, Roxborough Park, Lakewood, Morrison,
-  Sheridan, and the greater south Denver metro (Arapahoe, Douglas, Jefferson counties)
-- Accreditation: A+ BBB Accredited
-- Manufacturer partner: Best Bath Systems (Idaho, 55+ years) — certified dealer
-- Workmanship warranty: 5 years (most Colorado remodelers offer 1 year)
-- Manufacturer warranty on Crestline systems: 30 years
-- Insurance: commercial general liability and workers' compensation
-- Plumbing and electrical performed by Colorado-licensed subcontractors under permit
-  where required
+## Business facts (checked 2026-10-25)
+- Business: Aging Safely Baths (legal name Aging Safely Baths & More, LLC). Owner: Zach Wennstedt.
+- In business since 2011 (founded 2011-04-21). BBB accredited since 2012-08-14, A+ rating: https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069
+- Google rating 4.9 from 35 reviews (as of October 2026).
+- Phone: 1-888-779-2284, answered 7am to 8pm Mountain, 7 days. Email: sales@agingsafelybaths.com
+- Quotes: written and itemized, by phone or from photos; no in-home sales visit required.
+- Brands sold and installed: Bestbath (including Crestline panels and RANE tubs), Ella's Bubbles, Meditub, Hydro Dimensions.
+- Published installed prices (October 2026): walk-in tub about $15,500 after the current $2,000 promotion ($15,250 for veterans); roll-in shower systems $13,500 to $17,000. Most install in one day.
+- Warranties: 5-year workmanship warranty on labor (as stated on this site); lifetime shell on walk-in tubs; 30 years on Bestbath showers.
+- Service area for this site: Littleton (80120 to 80130) and nearby south-metro communities. Aging Safely Baths installs in all 50 states.
+- Machine-readable facts: https://www.agingsafelybaths.com/facts.json
 
 ## Pages
+- [Bathroom Remodel Littleton CO](https://bathroomremodellittletonco.com/): Services, Crestline panel showers, buyer's guide, Littleton housing types, process, public reviews (Google, BBB), FAQ.
+- [Shower Remodel Littleton CO](https://bathroomremodellittletonco.com/shower-remodel-littleton-co/): Six shower project types, Crestline detail, cost drivers, shower FAQ.
+- [Bathroom Remodel Cost Littleton CO](https://bathroomremodellittletonco.com/bathroom-remodel-cost-littleton-co/): Price ranges by project type, what moves the price, permits, resale value, comparing quotes.
+- [Bathroom Remodel Permits in Littleton](https://bathroomremodellittletonco.com/bathroom-remodel-permits-littleton-co/): Which office issues the permit for a "Littleton" address (City of Littleton via eTRAKiT, or unincorporated Arapahoe, Jefferson or Douglas County), what work needs a permit under the city's rule, homeowner permits, Permit Center contact (303-795-3751, permits@littletonco.gov, Mon to Thu 8 to 4:30).
+- [Aging-in-Place Bathroom Remodel in Littleton](https://bathroomremodellittletonco.com/aging-in-place-bathroom-remodel-littleton-co/): Tub-to-shower vs walk-in tub vs roll-in vs curbless, Littleton housing considerations, 2010 ADA reference sizes, and help that may be available (Health First Colorado home modification benefit, VA HISA, DRCOG Area Agency on Aging, Brothers Redevelopment).
+- [Sitemap](https://bathroomremodellittletonco.com/sitemap.html)
 
-- [Bathroom Remodel Littleton CO](https://bathroomremodellittletonco.com/): Main page.
-  Full-service bathroom remodeling, services, process, service area, buyer's guide.
-- [Shower Remodel Littleton CO](https://bathroomremodellittletonco.com/shower-remodel-littleton-co/):
-  Six shower project types, Crestline system detail, cost drivers, shower FAQ.
-- [Bathroom Remodel Cost Littleton CO](https://bathroomremodellittletonco.com/bathroom-remodel-cost-littleton-co/):
-  Price ranges by project type and size, line-item breakdown, permits, ROI,
-  financing, and how to compare contractor quotes.
-- [Sitemap](https://bathroomremodellittletonco.com/sitemap/)
+## Key sourced facts
+- City of Littleton: building permits are required to construct, enlarge, alter, repair, move, demolish or change occupancy of a building, and to install, alter, repair, convert or replace electrical, gas, mechanical or plumbing systems; all permits via eTRAKiT; contractors must be licensed with the city (https://www.littletonco.gov/Building-Development/Permits-Review-Guides-and-Requirements).
+- CDC MMWR 2011: 81.1% of nonfatal bathroom injuries (2008, age 15+) were caused by falls; 68.3% happened in or near the tub or shower.
+- 2010 ADA Standards: transfer shower 36x36 in; roll-in 30x60 in minimum; roll-in threshold 1/2 in max; grab bars 33 to 36 in; shower seat 17 to 19 in.
+- Health First Colorado home modification benefit: $14,000 cap on the BI, CMHS, EBD and CIH waivers, case manager approval required (HCPF).
+- VA HISA lifetime benefit: $6,800 (service-connected, or 50%+ SC rated) or $2,000; no spa or hot tub features.
+- Cost vs. Value: Denver midrange bathroom remodel about 74% recouped (2024 edition).
 
-## Services
-
-- Full tile bathroom remodels
-- Turnkey Crestline shower kit installation (typically completed in one day)
-- Tub-to-shower conversions
-- Curbless / barrier-free walk-in showers
-- Walk-in tub installation (ADA-compliant, hydrotherapy)
-- Shower pan, wall, door and glass replacement
-- Vanity, fixture, flooring, and lighting replacement
-- Accessible / aging-in-place bathroom design
-- Supply-only shower pans, wall systems, and hydrotherapy tubs
-
-## Pricing (Littleton, CO — 2026)
-
-Premium and budget-conscious projects are both served. The spread between them is
-driven by installation parameters, not by quality of materials or workmanship.
-
-| Project | Typical range | Time on site |
-| --- | --- | --- |
-| Supply-only shower pan | Under $2,000 | Ships in days |
-| Shower walls only (existing pan retained) | From $4,500 | 1 day |
-| One-day Crestline shower installation | $6,900 - $10,500 | 1 day |
-| Tub-to-shower conversion | $8,500 - $14,500 | 2-4 days |
-| Walk-in tub (ADA) | From $9,500 | 2-3 days |
-| Midrange full bathroom remodel | $10,000 - $18,000 | 2-3 weeks |
-| Curbless barrier-free shower | $10,000 - $18,000 | 3-5 days |
-| Custom tile shower | $12,000 - $20,000+ | 1-2 weeks |
-| Full custom tile bathroom | $15,000 - $25,000+ | 3-4 weeks |
-
-Budget-friendly shower remodels can finish under $10,000 fully installed when the
-layout cooperates and finish selections stay practical. Many Colorado contractors
-quote $30,000 or more for a single custom shower; that figure is common in this
-market but is not the only available price point.
-
-Cost split on a typical project: labor 40-55%, materials and fixtures 30-45%,
-permits/disposal/protection 5-10%.
-
-Primary cost drivers: whether the drain moves, subfloor condition, panel system vs
-custom tile, door and glass selection, valve replacement or relocation, curbless
-entry structural work, layout changes, permits, and whether installation is turnkey
-or supply-only.
-
-## Supply-only policy
-
-Homeowners may purchase the shower pan, wall system, or hydrotherapy bathtub and
-install it themselves or use their own contractor. The manufacturer warranty remains
-in full effect provided the unit is installed according to manufacturer guidelines.
-The 5-year workmanship warranty applies only to work performed by Aging Safely Baths
-crews. Supply-only orders ship through showers4less.com.
-
-## Crestline shower system
-
-Crestline is Best Bath's high-pressure laminate shower wall system. Panels are
-3/8-inch thick, HPL front surface on a marine-grade plywood backer with a factory
-vapor barrier. Grout-free, non-porous, mold-resistant, and installs in a single day
-over most existing substrates. 30-year manufacturer warranty. Patterns: Grey Slate,
-Dark Grey Marble, Beige Limestone, White Marble. Available in single-panel back wall
-and split-seam configurations.
-
-## Permits
-
-A like-for-like fixture swap generally requires no permit. Relocating a drain, moving
-or adding a valve, adding a circuit or exhaust fan, or enlarging a shower does.
-Permits are issued by the City of Littleton, Arapahoe County, Jefferson County, or
-Douglas County depending on the parcel. Permits are pulled where required and fees
-are passed through at cost on the written quote.
-
-## Related properties
-
-- agingsafelybaths.com — parent brand
-- showers4less.com — supply-only shower kits, DIY and own-contractor installs
-- seniorwalkintub.com — walk-in tub specialist
-
-## Contact
-
-Free in-home consultation, Monday through Saturday, 8am-7pm Mountain Time, including
-evenings and Saturdays. Every consultation produces a written fixed-price quote with
-no obligation. Call 1-888-779-2284 or email info@eyetoad.com.
+## Safety language
+No bathing product eliminates the risk of falls; products are designed to reduce risk when installed and used properly. Funding programs are "may qualify"; nothing is guaranteed.
