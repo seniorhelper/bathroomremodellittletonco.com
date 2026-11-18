@@ -36,7 +36,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -121,7 +121,7 @@
           "name": "How much does an accessible bathroom remodel cost in Littleton?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It depends on the core change. Aging Safely Baths publishes installed prices of about $15,500 for a walk-in tub after the current $2,000 promotion ($15,250 for veterans) and $13,500 to $17,000 for a roll-in shower system, most installed in a day. Grab bars and a handheld shower alone cost far less. A custom tile curbless shower is quoted per project because floor work varies."
+            "text": "It depends on the core change. Aging Safely Baths publishes installed prices of $15,250 to $20,000 for a walk-in tub after current promotions and $13,500 to $17,000 for a roll-in shower system, most installed in a day. Grab bars and a handheld shower alone cost far less. A custom tile curbless shower is quoted per project because floor work varies."
           }
         },
         {
@@ -191,7 +191,7 @@
   --line: #D9E4E0;
 
   /* Type */
-  --f-display: "Fraunces", "Georgia", serif;
+  --f-display: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --f-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --f-sub: "Bricolage Grotesque", var(--f-body);
   --f-mono: "JetBrains Mono", ui-monospace, monospace;
@@ -236,9 +236,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 28px; height: 1px;
   background: var(--coral);
 }
-h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 400; line-height: 1.05; letter-spacing: -0.01em; color: var(--teal-900); font-variation-settings: "opsz" 144, "SOFT" 30; }
-h1 { font-size: clamp(44px, 7vw, 96px); }
-h2 { font-size: clamp(34px, 5.2vw, 68px); }
+h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; color: var(--teal-900); font-variation-settings: "opsz" 144, "SOFT" 30; }
+h1 { font-size: clamp(36px, 5vw, 64px); }
+h2 { font-size: clamp(30px, 4.4vw, 54px); }
 h3 { font-size: clamp(22px, 2.6vw, 32px); }
 h4 { font-size: clamp(18px, 1.6vw, 22px); font-family: var(--f-sub); font-weight: 600; letter-spacing: 0; color: var(--teal-900); }
 
@@ -405,8 +405,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 /* ==================== HERO ==================== */
 .hero {
   position: relative;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 70vh;
+  min-height: 70dvh;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -441,7 +441,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 24px 90px;
+  padding: 0 24px 56px;
   max-width: 1240px;
   margin: 0 auto;
   width: 100%;
@@ -467,12 +467,12 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   color: var(--white);
   max-width: 15ch;
   margin-bottom: 24px;
-  font-variation-settings: "opsz" 144, "SOFT" 60, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 60;
 }
 .hero h1 .accent {
   font-style: italic;
   color: var(--coral);
-  font-variation-settings: "opsz" 144, "SOFT" 100, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
   display: inline-block;
 }
 .hero .lead {
@@ -1150,7 +1150,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   color: var(--white);
   font-size: clamp(30px, 4vw, 54px);
   margin-bottom: 14px;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
 }
 .cta-strip h2 em { font-style: italic; }
 .cta-strip p { color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 30px; }
@@ -1603,8 +1603,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 <!-- ==================== HEADER ==================== -->
 <header class="site-header" id="top">
   <div class="header-inner">
-    <a href="/" class="site-logo" aria-label="Bathroom Remodel Littleton CO — Home">
-      <img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo — Aging Safely Baths" width="280" height="128">
+    <a href="/" class="site-logo" aria-label="Bathroom Remodel Littleton CO, Home">
+      <img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo, Aging Safely Baths" width="280" height="128">
     </a>
     <nav class="nav-primary" aria-label="Primary">
       <a href="/#services">Services</a>
@@ -1614,7 +1614,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <a href="/#reviews">Reviews</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="bbb-seal bbb-d" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
+    <a class="bbb-seal bbb-d" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
     <div class="header-cta">
       <a href="tel:18887792284" class="header-phone">1-888-779-2284</a>
       <a href="#consultation" class="btn btn-primary" style="padding: 12px 22px; font-size: 14px;">Free Consultation</a>
@@ -1624,7 +1624,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     </div>
   </div>
 </header>
-<div class="bbb-m" role="note"><a class="bbb-seal bbb-m-seal" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><span>Aging Safely Baths holds BBB accreditation. <a class="bbb-lnk" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener">See for yourself</a>.</span></div>
+<div class="bbb-m" role="note"><a class="bbb-seal bbb-m-seal" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><span>Aging Safely Baths holds BBB accreditation. <a class="bbb-lnk" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener">See for yourself</a>.</span></div>
 
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu-close" aria-label="Close menu" onclick="document.getElementById('mobileMenu').classList.remove('open')">&times;</button>
@@ -1640,6 +1640,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <a href="#consultation" onclick="document.getElementById('mobileMenu').classList.remove('open')">Consultation</a>
       <a href="/aging-in-place-bathroom-remodel-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Aging in Place</a>
     <a href="/bathroom-remodel-permits-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Permits</a>
+    <a href="/bathtub-replacement-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Bathtub Replacement</a>
   </nav>
   <div class="m-cta">
     <a href="tel:18887792284">Call 1-888-779-2284</a>
@@ -1649,7 +1650,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 
 
 <!-- ==================== HERO ==================== -->
-<section class="hero" style="min-height: auto; padding: clamp(70px, 10vw, 120px) 0 clamp(60px, 8vw, 100px);">
+<section class="hero" style="min-height: auto; padding: clamp(36px, 4vw, 56px) 0 clamp(48px, 6vw, 80px);">
   <div class="hero-video-wrap" style="background: var(--teal-900);">
     <img src="/images/littleton-co-shower-remodel-800.webp" alt="Low-threshold walk-in shower with a handheld shower on a hose, grey wall panels and a wood vanity" width="800" height="1003" fetchpriority="high" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.4;">
   </div>
@@ -1676,7 +1677,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <div class="wrap-tight">
     <div class="answer-box reveal">
       <div class="answer-label">The short answer</div>
-      <p class="answer-lead">For most Littleton homes the biggest safety gain comes from removing the high tub wall: either a <b>tub-to-shower conversion</b> to a low-threshold or roll-in shower, or a <b>walk-in tub</b> with a seat. Aging Safely Baths publishes installed prices of <b>about $15,500 for a walk-in tub</b> (after the current $2,000 promotion; $15,250 for veterans) and <b>$13,500 to $17,000 for a roll-in shower system</b>, most installed in one day. Add grab bars anchored to studs or blocking, a handheld shower and good lighting either way.</p>
+      <p class="answer-lead">For most Littleton homes the biggest safety gain comes from removing the high tub wall: either a <b>tub-to-shower conversion</b> to a low-threshold or roll-in shower, or a <b>walk-in tub</b> with a seat. Aging Safely Baths publishes installed prices of <b>$15,250 to $20,000 for a walk-in tub</b> (after current promotions) and <b>$13,500 to $17,000 for a roll-in shower system</b>, most installed in one day. Add grab bars anchored to studs or blocking, a handheld shower and good lighting either way.</p>
     </div>
   </div>
 </section>
@@ -1715,14 +1716,14 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <tbody>
           <tr><td><b>Grab bars, handheld shower, seat (no fixture change)</b></td><td>Steady on your feet, planning ahead</td><td>Varies; a small project</td><td>Usually a day or less</td></tr>
           <tr><td><b>Roll-in barrier-free shower system (Bestbath)</b></td><td>Walkers, wheelchairs, caregivers helping</td><td>$13,500 to $17,000 (Aging Safely Baths published price)</td><td>1 day in most homes</td></tr>
-          <tr><td><b>Walk-in tub with seat and door</b></td><td>People who love to soak and can manage a low step</td><td>About $15,500 after current promo; $15,250 veterans (Aging Safely Baths published)</td><td>1 day in most homes</td></tr>
+          <tr><td><b>Walk-in tub with seat and door</b></td><td>People who love to soak and can manage a low step</td><td>$15,250 to $20,000 after current promotions (Aging Safely Baths published)</td><td>1 day in most homes</td></tr>
           <tr><td><b>Tub-to-shower conversion with a low curb</b></td><td>Showers only, mobile, moderate budget</td><td>See our <a href="/bathroom-remodel-cost-littleton-co/">Littleton cost guide</a></td><td>Often 1 to 4 days</td></tr>
           <tr><td><b>Custom tile curbless shower</b></td><td>Design-led primary baths with the right floor structure</td><td>Quoted per project</td><td>Usually 1 to 2 weeks</td></tr>
         </tbody>
       </table>
     </div>
     <p class="reveal" style="margin-top: 16px;">Two quick decision rules. If anyone uses a wheelchair or might in the next few years, go roll-in. If the person truly enjoys baths and can lift each foot a few inches with a grab bar, a walk-in tub keeps that pleasure. If it's a shower person who just wants the tub gone, a conversion is usually the efficient answer. Aging Safely Baths has a full explainer on <a href="https://www.agingsafelybaths.com/tub-to-shower-conversion-denver/" target="_blank" rel="noopener">tub-to-shower conversions in the Denver area</a>, including what happens to the drain and walls. For walk-in tubs specifically in our area, see the <a href="https://walkintubdenver.com/walk-in-tub-littleton-co/" target="_blank" rel="nofollow noopener">Littleton walk-in tub page</a> on our sister site.</p>
-    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Not sure which one fits the person who'll use it? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no sales visit.</p></div>
+    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Not sure which one fits the person who'll use it? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no high-pressure sales visit, and a factory-certified tech does a full site visit before install.</p></div>
   </div>
 </section>
 
@@ -1785,7 +1786,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <li style="margin: 8px 0;"><b>Medicare.</b> Original Medicare generally doesn't pay for walk-in tubs or bathroom remodels. Some Medicare Advantage plans offer bathroom safety benefits, so it's worth asking your plan.</li>
       <li style="margin: 8px 0;"><b>Taxes.</b> IRS Publication 502 lets medically necessary home improvements count as medical expenses, reduced by any increase in home value, and only above 7.5% of adjusted gross income. Ask a tax professional.</li>
     </ul>
-    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Want an itemized quote you can hand to a case manager or the VA? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no sales visit.</p></div>
+    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Want an itemized quote you can hand to a case manager or the VA? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no high-pressure sales visit, and a factory-certified tech does a full site visit before install.</p></div>
     <h3 class="reveal" style="margin-top: 34px;">Sources</h3>
     <ul class="reveal" style="margin: 16px 0 0 1.2em; line-height: 1.7;">
       <li style="margin: 8px 0;">CDC, <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6022a1.htm" rel="noopener" target="_blank">Nonfatal Bathroom Injuries Among Persons Aged 15 or Older, United States, 2008</a> (MMWR, 2011)</li>
@@ -1814,7 +1815,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">How much does an accessible bathroom remodel cost in Littleton?<span class="faq-toggle" aria-hidden="true"></span></button>
-        <div class="faq-a"><div style="padding-top: 4px;">It depends on the core change. Aging Safely Baths publishes installed prices of about $15,500 for a walk-in tub after the current $2,000 promotion ($15,250 for veterans) and $13,500 to $17,000 for a roll-in shower system, most installed in a day. Grab bars and a handheld shower alone cost far less. A custom tile curbless shower is quoted per project because floor work varies.</div></div>
+        <div class="faq-a"><div style="padding-top: 4px;">It depends on the core change. Aging Safely Baths publishes installed prices of $15,250 to $20,000 for a walk-in tub after current promotions and $13,500 to $17,000 for a roll-in shower system, most installed in a day. Grab bars and a handheld shower alone cost far less. A custom tile curbless shower is quoted per project because floor work varies.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false">Is a walk-in tub or a walk-in shower better for seniors?<span class="faq-toggle" aria-hidden="true"></span></button>
@@ -1901,7 +1902,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         </div>
 
         <div class="bbb-val">
-          <a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
+          <a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
           <div class="bbb-txt">
             <strong>Look us up before you book</strong>
             <p>Aging Safely Baths holds BBB accreditation; the seal leads to our listing and any customer reviews.</p>
@@ -1920,7 +1921,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
             <input type="hidden" name="_captcha" value="false">
 
             <!-- Lead source notation (populated by JS at submit) -->
-            <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — cost guide page form">
+            <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com, cost guide page form">
             <input type="hidden" name="Form Location" value="Remodel Cost page / #consultation section">
             <input type="hidden" name="Page URL" class="lead-page-url">
             <input type="hidden" name="Page Title" class="lead-page-title">
@@ -1987,7 +1988,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
                   <option>$10,000 – $15,000</option>
                   <option>$15,000 – $25,000</option>
                   <option>$25,000+</option>
-                  <option>Not sure — help me figure it out</option>
+                  <option>Not sure? Help me figure it out</option>
                 </select>
               </div>
             </div>
@@ -2024,7 +2025,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <div class="wrap">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="bbb-fbrand"><img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo" width="280" height="128" loading="lazy" decoding="async"><div class="bbb-fcard"><a class="bbb-seal bbb-f" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><b>BBB Accredited Business</b></div></div>
+        <div class="bbb-fbrand"><img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo" width="280" height="128" loading="lazy" decoding="async"><div class="bbb-fcard"><a class="bbb-seal bbb-f" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><b>BBB Accredited Business</b></div></div>
         <p>Bathroom and shower remodels in Littleton, Colorado by Aging Safely Baths: in business since 2011, BBB A+ accredited since 2012.</p>
         <p style="margin-top: 14px; font-family: var(--f-mono); font-size: 13px;"><a href="tel:18887792284" style="color: var(--teal-900);">1-888-779-2284</a></p>
       </div>
@@ -2034,6 +2035,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <li><a href="/shower-remodel-littleton-co/">Shower Remodel Littleton</a></li>
           <li><a href="/bathroom-remodel-cost-littleton-co/">Remodel Cost Guide</a></li>
           <li><a href="/bathroom-remodel-permits-littleton-co/">Remodel Permits</a></li>
+          <li><a href="/bathtub-replacement-littleton-co/">Bathtub Replacement</a></li>
           <li><a href="/aging-in-place-bathroom-remodel-littleton-co/">Aging-in-Place Remodel</a></li>
           <li><a href="/#services">Full Tile Bathroom Remodels</a></li>
           <li><a href="/#crestline">Crestline Shower Kits</a></li>
@@ -2086,7 +2088,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <input type="hidden" name="_captcha" value="false">
 
         <!-- Lead source notation (populated by JS at submit) -->
-        <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — cost guide popup modal">
+        <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com, cost guide popup modal">
         <input type="hidden" name="Form Location" value="Remodel Cost page / popup modal">
         <input type="hidden" name="Popup Trigger" id="popupTrigger" value="unknown">
         <input type="hidden" name="Page URL" class="lead-page-url">
@@ -2133,7 +2135,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           5-Yr Warranty
         </div>
       </div>
-      <div class="bbb-modal"><a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a></div>
+      <div class="bbb-modal"><a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a></div>
     </div>
     <div class="form-success" id="popupSuccess">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>

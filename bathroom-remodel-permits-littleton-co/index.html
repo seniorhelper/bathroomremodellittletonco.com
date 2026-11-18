@@ -36,7 +36,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -191,7 +191,7 @@
   --line: #D9E4E0;
 
   /* Type */
-  --f-display: "Fraunces", "Georgia", serif;
+  --f-display: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --f-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --f-sub: "Bricolage Grotesque", var(--f-body);
   --f-mono: "JetBrains Mono", ui-monospace, monospace;
@@ -236,9 +236,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 28px; height: 1px;
   background: var(--coral);
 }
-h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 400; line-height: 1.05; letter-spacing: -0.01em; color: var(--teal-900); font-variation-settings: "opsz" 144, "SOFT" 30; }
-h1 { font-size: clamp(44px, 7vw, 96px); }
-h2 { font-size: clamp(34px, 5.2vw, 68px); }
+h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; color: var(--teal-900); font-variation-settings: "opsz" 144, "SOFT" 30; }
+h1 { font-size: clamp(36px, 5vw, 64px); }
+h2 { font-size: clamp(30px, 4.4vw, 54px); }
 h3 { font-size: clamp(22px, 2.6vw, 32px); }
 h4 { font-size: clamp(18px, 1.6vw, 22px); font-family: var(--f-sub); font-weight: 600; letter-spacing: 0; color: var(--teal-900); }
 
@@ -405,8 +405,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 /* ==================== HERO ==================== */
 .hero {
   position: relative;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 70vh;
+  min-height: 70dvh;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -441,7 +441,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 24px 90px;
+  padding: 0 24px 56px;
   max-width: 1240px;
   margin: 0 auto;
   width: 100%;
@@ -467,12 +467,12 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   color: var(--white);
   max-width: 15ch;
   margin-bottom: 24px;
-  font-variation-settings: "opsz" 144, "SOFT" 60, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 60;
 }
 .hero h1 .accent {
   font-style: italic;
   color: var(--coral);
-  font-variation-settings: "opsz" 144, "SOFT" 100, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
   display: inline-block;
 }
 .hero .lead {
@@ -1150,7 +1150,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   color: var(--white);
   font-size: clamp(30px, 4vw, 54px);
   margin-bottom: 14px;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "wght" 400;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
 }
 .cta-strip h2 em { font-style: italic; }
 .cta-strip p { color: rgba(255,255,255,0.9); font-size: 18px; margin-bottom: 30px; }
@@ -1603,8 +1603,8 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 <!-- ==================== HEADER ==================== -->
 <header class="site-header" id="top">
   <div class="header-inner">
-    <a href="/" class="site-logo" aria-label="Bathroom Remodel Littleton CO — Home">
-      <img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo — Aging Safely Baths" width="280" height="128">
+    <a href="/" class="site-logo" aria-label="Bathroom Remodel Littleton CO, Home">
+      <img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo, Aging Safely Baths" width="280" height="128">
     </a>
     <nav class="nav-primary" aria-label="Primary">
       <a href="/#services">Services</a>
@@ -1614,7 +1614,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       <a href="/#reviews">Reviews</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="bbb-seal bbb-d" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
+    <a class="bbb-seal bbb-d" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
     <div class="header-cta">
       <a href="tel:18887792284" class="header-phone">1-888-779-2284</a>
       <a href="#consultation" class="btn btn-primary" style="padding: 12px 22px; font-size: 14px;">Free Consultation</a>
@@ -1624,7 +1624,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     </div>
   </div>
 </header>
-<div class="bbb-m" role="note"><a class="bbb-seal bbb-m-seal" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><span>Aging Safely Baths holds BBB accreditation. <a class="bbb-lnk" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener">See for yourself</a>.</span></div>
+<div class="bbb-m" role="note"><a class="bbb-seal bbb-m-seal" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><span>Aging Safely Baths holds BBB accreditation. <a class="bbb-lnk" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener">See for yourself</a>.</span></div>
 
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu-close" aria-label="Close menu" onclick="document.getElementById('mobileMenu').classList.remove('open')">&times;</button>
@@ -1640,6 +1640,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <a href="#consultation" onclick="document.getElementById('mobileMenu').classList.remove('open')">Consultation</a>
       <a href="/aging-in-place-bathroom-remodel-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Aging in Place</a>
     <a href="/bathroom-remodel-permits-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Permits</a>
+    <a href="/bathtub-replacement-littleton-co/" onclick="document.getElementById('mobileMenu').classList.remove('open')">Bathtub Replacement</a>
   </nav>
   <div class="m-cta">
     <a href="tel:18887792284">Call 1-888-779-2284</a>
@@ -1649,7 +1650,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 
 
 <!-- ==================== HERO ==================== -->
-<section class="hero" style="min-height: auto; padding: clamp(70px, 10vw, 120px) 0 clamp(60px, 8vw, 100px);">
+<section class="hero" style="min-height: auto; padding: clamp(36px, 4vw, 56px) 0 clamp(48px, 6vw, 80px);">
   <div class="hero-video-wrap" style="background: var(--teal-900);">
     <img src="/images/bathroom-remodeling-contractor-littleton-colorado-1200.webp" alt="Bathroom with a glass-door panel shower, double vanity and freestanding tub" width="1200" height="1200" fetchpriority="high" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.4;">
   </div>
@@ -1731,7 +1732,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
       </table>
     </div>
     <p class="reveal" style="margin-top: 16px;">Counties word their rules differently, but the pattern is similar: system and structural work gets permitted and inspected, cosmetic work doesn't. If you're outside the city, call your county building division with the same list.</p>
-    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Not sure which category your project is in? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no sales visit.</p></div>
+    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Not sure which category your project is in? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no high-pressure sales visit, and a factory-certified tech does a full site visit before install.</p></div>
   </div>
 </section>
 
@@ -1769,7 +1770,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
     <p class="reveal" style="margin-top: 16px;">The fee is rarely the issue; it scales with the value of the work and is a small line on most bathroom quotes. What matters is what the permit gets you: a second set of trained eyes on the drain slope, the venting, the GFCI protection and the waterproofing details that disappear behind tile. When you sell, a buyer's inspector who spots a new bathroom will often ask whether it was permitted. "Yes, here's the final" ends that conversation. "No" can start a negotiation.</p>
     <p class="reveal" style="margin-top: 16px;">For accessibility work there's one more reason. Grab bar blocking, a curbless shower pan and a wider doorway are all easier to do right when the walls and floor are open, which is exactly when the inspector visits. If you're planning a safer bathroom, our <a href="/aging-in-place-bathroom-remodel-littleton-co/">aging-in-place bathroom remodel guide for Littleton</a> covers the options, and the <a href="/bathroom-remodel-cost-littleton-co/">Littleton remodel cost guide</a> shows where permits sit in a budget.</p>
     <p class="reveal" style="margin-top: 16px;">Planning a walk-in tub specifically? Our sister site has a Denver-metro guide to <a href="https://walkintubdenver.com/walk-in-tub-permit-denver/" rel="nofollow noopener" target="_blank">walk-in tub permits</a>, and Aging Safely Baths explains <a href="https://www.agingsafelybaths.com/how-long-does-a-walk-in-tub-take-to-install/" rel="nofollow noopener" target="_blank">how long a walk-in tub install takes</a>.</p>
-    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Want permits listed on your quote so nothing is a surprise? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no sales visit.</p></div>
+    <div class="answer-box reveal" style="margin-top: 36px;"><p class="answer-lead" style="font-size: 17px;">Want permits listed on your quote so nothing is a surprise? Call <a href="tel:18887792284">1-888-779-2284</a> (7am to 8pm Mountain, 7 days) or send a few photos through the <a href="#consultation">quote form</a>. You'll get a written, itemized price with no high-pressure sales visit, and a factory-certified tech does a full site visit before install.</p></div>
     <h3 class="reveal" style="margin-top: 34px;">Sources</h3>
     <ul class="reveal" style="margin: 16px 0 0 1.2em; line-height: 1.7;">
       <li style="margin: 8px 0;"><a href="https://www.littletonco.gov/Building-Development/Permits-Review-Guides-and-Requirements" rel="noopener" target="_blank">City of Littleton: Permits, Review Guides, and Requirements</a> (permit triggers, eTRAKiT, contractor licensing, homeowner permits, Permit Center hours)</li>
@@ -1880,7 +1881,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         </div>
 
         <div class="bbb-val">
-          <a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
+          <a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a>
           <div class="bbb-txt">
             <strong>Look us up before you book</strong>
             <p>Aging Safely Baths holds BBB accreditation; the seal leads to our listing and any customer reviews.</p>
@@ -1899,7 +1900,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
             <input type="hidden" name="_captcha" value="false">
 
             <!-- Lead source notation (populated by JS at submit) -->
-            <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — cost guide page form">
+            <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com, cost guide page form">
             <input type="hidden" name="Form Location" value="Remodel Cost page / #consultation section">
             <input type="hidden" name="Page URL" class="lead-page-url">
             <input type="hidden" name="Page Title" class="lead-page-title">
@@ -1966,7 +1967,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
                   <option>$10,000 – $15,000</option>
                   <option>$15,000 – $25,000</option>
                   <option>$25,000+</option>
-                  <option>Not sure — help me figure it out</option>
+                  <option>Not sure? Help me figure it out</option>
                 </select>
               </div>
             </div>
@@ -2003,7 +2004,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
   <div class="wrap">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="bbb-fbrand"><img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo" width="280" height="128" loading="lazy" decoding="async"><div class="bbb-fcard"><a class="bbb-seal bbb-f" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><b>BBB Accredited Business</b></div></div>
+        <div class="bbb-fbrand"><img src="/images/bathroom-remodel-littleton-co-logo.webp" alt="Bathroom Remodel Littleton CO logo" width="280" height="128" loading="lazy" decoding="async"><div class="bbb-fcard"><a class="bbb-seal bbb-f" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a><b>BBB Accredited Business</b></div></div>
         <p>Bathroom and shower remodels in Littleton, Colorado by Aging Safely Baths: in business since 2011, BBB A+ accredited since 2012.</p>
         <p style="margin-top: 14px; font-family: var(--f-mono); font-size: 13px;"><a href="tel:18887792284" style="color: var(--teal-900);">1-888-779-2284</a></p>
       </div>
@@ -2013,6 +2014,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           <li><a href="/shower-remodel-littleton-co/">Shower Remodel Littleton</a></li>
           <li><a href="/bathroom-remodel-cost-littleton-co/">Remodel Cost Guide</a></li>
           <li><a href="/bathroom-remodel-permits-littleton-co/">Remodel Permits</a></li>
+          <li><a href="/bathtub-replacement-littleton-co/">Bathtub Replacement</a></li>
           <li><a href="/aging-in-place-bathroom-remodel-littleton-co/">Aging-in-Place Remodel</a></li>
           <li><a href="/#services">Full Tile Bathroom Remodels</a></li>
           <li><a href="/#crestline">Crestline Shower Kits</a></li>
@@ -2065,7 +2067,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
         <input type="hidden" name="_captcha" value="false">
 
         <!-- Lead source notation (populated by JS at submit) -->
-        <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com — cost guide popup modal">
+        <input type="hidden" name="Lead Source" value="bathroomremodellittletonco.com, cost guide popup modal">
         <input type="hidden" name="Form Location" value="Remodel Cost page / popup modal">
         <input type="hidden" name="Popup Trigger" id="popupTrigger" value="unknown">
         <input type="hidden" name="Page URL" class="lead-page-url">
@@ -2112,7 +2114,7 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
           5-Yr Warranty
         </div>
       </div>
-      <div class="bbb-modal"><a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business — Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a></div>
+      <div class="bbb-modal"><a class="bbb-seal bbb-v" href="https://www.bbb.org/us/co/denver/profile/walk-in-tubs/aging-safely-walk-in-tubs-1296-90145069/#sealclick" target="_blank" rel="nofollow noopener" aria-label="BBB Accredited Business: Aging Safely Walk in Tubs"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90145069.png" width="200" height="65" alt="Aging Safely Walk in Tubs BBB Business Review" loading="lazy" decoding="async"></a></div>
     </div>
     <div class="form-success" id="popupSuccess">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
