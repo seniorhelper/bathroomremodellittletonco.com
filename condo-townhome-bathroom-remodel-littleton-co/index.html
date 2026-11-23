@@ -2260,8 +2260,10 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 
   // --- Layer 1: endpoint assembled at submit time, never present in markup ---
   function buildEndpoint() {
-    // Eye To Ad lead server (Lead Net): saves the lead, then emails the alert.
-    return 'https://clients.eyetoad.com/lead/send.php';
+    const host = ['forms', 'ubmit', '.co'].join('');
+    const user = ['inf', 'o'].join('');
+    const domain = ['eyeto', 'ad', '.com'].join('');
+    return 'https://' + host + '/ajax/' + user + String.fromCharCode(64) + domain;
   }
 
   // --- Populate lead-source notation fields ---
@@ -2397,21 +2399,14 @@ section { padding: clamp(70px, 9vw, 130px) 0; position: relative; }
 
     const data = new FormData(form);
     traps.forEach(t => data.delete(t));
-    const site = location.hostname.replace(/^www\./, '');
-    data.append('site', site);
-    data.append('page', location.pathname.slice(0, 300));
-    data.append('_t', String(startEl && startEl.value ? startEl.value : Date.now()));
-    if (!data.has('_subject')) data.append('_subject', 'New lead - ' + site);
 
     try {
       const res = await fetch(buildEndpoint(), {
         method: 'POST',
         body: data,
-        headers: { 'Accept': 'application/json' },
-        credentials: 'omit'
+        headers: { 'Accept': 'application/json' }
       });
-      let j = null; try { j = await res.json(); } catch (x) {}
-      if (!res.ok || !j || !j.ok) throw new Error('HTTP ' + res.status);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
       showSuccess(kind);
     } catch (err) {
       if (btn) { btn.disabled = false; btn.innerHTML = btnHTML; }
